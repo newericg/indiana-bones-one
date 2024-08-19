@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <br />
     <a href="" target="_blank">
       <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
@@ -15,7 +15,7 @@
 
 </div>
 
-## <a name="live version">🚀 Live Version</a>
+## <a name="live version">🚀 Live Version</a> -->
 
 https://vite-project-one-ochre.vercel.app/
 

@@ -8,10 +8,10 @@ import Section from "./Section";
 const Benefits = () => {
   return (
     <Section id="features">
-      <div className="container relative z-2">
+      <div className="container relative z-2 mt-20 sm:mt-0">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          className="md:max-w-md lg:max-w-2xl text-center "
+          title="What set us apart?"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
