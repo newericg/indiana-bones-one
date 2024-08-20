@@ -13,10 +13,10 @@ const HomePage = () => {
     <>
         <Hero />
         <Benefits />
-        <Collaboration />
+        {/* <Collaboration />
         <Services />
         <Pricing />
-        <Roadmap />
+        <Roadmap /> */}
         <Footer />
     </>
   )

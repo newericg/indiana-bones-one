@@ -67,7 +67,13 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+
+import benefitImage1 from './benefits/galeria1.jpg'
+import benefitImage2 from './benefits/galeria2.jpg'
+import benefitImage3 from './benefits/galeria3.jpg'
+import benefitImage4 from './benefits/galeria4.jpg'
+import benefitImage5 from './benefits/galeria5.jpg'
+import benefitImage6 from './benefits/galeria6.jpg'
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -90,7 +96,7 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2, brainwave, brainwaveSymbol,
+  brainwave, brainwaveSymbol,
   brainwaveWhiteSymbol, check,
   check2, chromecast, coins, curve, curve1,
   curve2, disc02, discord, discordBlack, dogHeader, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, indianabones_logo, indianabones_logo2, instagram, lines, loading, loading1, notification1,
@@ -104,6 +110,6 @@ export {
   roadmap4, robot, searchMd, service1,
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
-  twitter, undone, yourlogo
+  twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6
 };
 

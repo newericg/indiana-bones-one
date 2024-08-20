@@ -3,8 +3,8 @@ import { companyLogos } from "../constants";
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping people create beautiful content at
+      <h5 className="tagline mb-6 text-center text-n-1/50 text-4xl">
+        We are accepting new clients! Join Team Indy!
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, index) => (
