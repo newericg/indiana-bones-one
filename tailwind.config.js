@@ -11,13 +11,15 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "#161616",
+        secondary: "#5E7A5E",
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          // primary: "#161616",
+          // secondary: "#5E7A5E",
+          // 3: "#FF776F",
+          // 4: "#7ADB78",
+          // 5: "#858DFF",
+          // 6: "#FF98E2",
         },
         stroke: {
           1: "#26242C",
@@ -30,7 +32,7 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#0E0C15",
+          8: "#7b9e93",
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",

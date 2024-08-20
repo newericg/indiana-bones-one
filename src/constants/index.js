@@ -40,7 +40,7 @@ export const navigation = [
   {
     id: "0",
     title: "What we do",
-    url: "#features",
+    url: "/whatwedo",
   },
   {
     id: "1",
@@ -65,7 +65,7 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Login",
     url: "#login",
     onlyMobile: true,
   },
@@ -244,16 +244,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "ETA sharing",
+    text: "Monitor the arrival time of our dog walkers as they come to pick up your pup using our real-time ETA-sharing feature. We prioritize your time and strive to ensure a seamless and convenient experience for both you and your furry friend.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Waiting list feature",
+    text: "The waiting list feature allows you to sign up to be notified when a service becomes available. Available for dog hiking and dog walking services.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
