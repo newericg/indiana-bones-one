@@ -5,9 +5,6 @@ import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import ScrollReveal from "scrollreveal";
 import Reveal from "../libs/Reveal";
 
 const Hero = () => {
@@ -15,7 +12,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[5.25rem] min-h-screen"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -66,10 +63,10 @@ const Hero = () => {
             <BackgroundCircles />
           </div>
         </div>
-        <Reveal>
-          <CompanyLogos className="hidden relative z-10 my-20 lg:block company-logos" />
-        </Reveal>
       </div>
+      <Reveal>
+        <CompanyLogos className="hidden relative z-10 my-20 lg:block company-logos w-screen" />
+      </Reveal>
 
       <BottomLine />
     </Section>

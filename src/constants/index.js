@@ -39,8 +39,11 @@ import {
   telegram,
   twitter,
   yourlogo,
-  indianabones_logo2
+  indianabones_logo2,
+  dogHiking
+
 } from "../../src/assets";
+
 
 export const navigation = [
   {
@@ -81,7 +84,27 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [indianabones_logo2, indianabones_logo2, indianabones_logo2, indianabones_logo2];
+export const companyServices = [
+  {
+    text: "Dog Hiking",
+    image: dogHiking
+  },
+  // {
+  //   text: "Henry Bones Sr."
+  // },
+  // {
+  //   text: "Weekend Dog Walking"
+  // },
+  // {
+  //   text: "Camping Trip"
+  // },
+  // {
+  //   text: "Overnight Boarding"
+  // },
+  // {
+  //   text: "Dog Siting"
+  // },
+];
 
 export const brainwaveServices = [
   "Photo generating",
