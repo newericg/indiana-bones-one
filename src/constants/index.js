@@ -157,21 +157,33 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Welcome to our dog hiking service! We offer a friendly and exciting dog hiking experience for your furry friends.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Dog Hiking",
+    text: "Let the little explorer inside your dog come to life!",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Henry Bones Sr.",
+    text: "Hikes for our elder furry babies.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Weekeng Dog Walking",
+    text: "Busy on weekend? Count on us!",
+  },
+  {
+    id: "3",
+    title: "Overnight Boarding/Dog Sitting",
+    text: "Don't feel guilty about going on vacation and leaving your pup behind.",
+  },
+  {
+    id: "4",
+    title: "Camping Trip",
+    text: "Camping Trip Season 2024 is on!",
   },
 ];
 

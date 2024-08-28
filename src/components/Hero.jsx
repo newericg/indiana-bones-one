@@ -44,18 +44,15 @@ const Hero = () => {
             </div>
           </Reveal>
 
-          <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24 flex justify-center align-middle">
+          <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24 flex justify-end align-middle">
             <div className="relative z-1 p-0.5">
               <div className="relative">
                 <div />
-
-                <div className="md:aspect-[688/490] lg:aspect-[1024/490] -mt-28 sm:-mt-72">
+                <div className="md:aspect-[688/490] lg:aspect-[1024/490] -mt-16 sm:-mt-32">
                   <img
                     src={dogHeader}
-                    className="w-full scale-[1.2] md:scale-[1]"
-                    width={1024}
-                    height={490}
-                    alt="AI"
+                    className="w-full scale-[1.2] md:scale-[1.2]"
+                    alt="Indiana Bones Dog"
                   />
                 </div>
               </div>
