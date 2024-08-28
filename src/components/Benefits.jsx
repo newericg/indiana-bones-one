@@ -9,12 +9,13 @@ import Reveal from "../libs/Reveal";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="features" className="sm:pb-0">
       <div className="container relative z-2 sm:mt-0">
         <Reveal>
           <Heading
             className="md:max-w-md lg:max-w-2xl text-center "
             title="What set us apart?"
+            tag="Features"
           />
         </Reveal>
 

@@ -35,10 +35,11 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import dogCollab from "./collaboration/indiana-dog-services.png"
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./services/indiana-dog.png";
+import service2 from "./services/indiana-dog2.png";
+import service3 from "./services/indiana-dog3.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -46,8 +47,8 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
+import roadmap1 from "./indiana-dog-services1.png";
+import roadmap2 from "./indiana-dog-services.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
@@ -113,6 +114,6 @@ export {
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
-  dogHiking
+  dogHiking, dogCollab
 };
 

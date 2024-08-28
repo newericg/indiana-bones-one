@@ -38,9 +38,12 @@ const Hero = () => {
               <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
                 When walking won't do the trick
               </p>
-              <Button href="/pricing" white>
-                Join Team Indy
-              </Button>
+              
+                <Button href="/pricing">
+                  Join Team Indy
+                </Button>
+
+              
             </div>
           </Reveal>
 

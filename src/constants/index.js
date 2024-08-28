@@ -40,7 +40,8 @@ import {
   twitter,
   yourlogo,
   indianabones_logo2,
-  dogHiking
+  dogHiking,
+  dogCollab
 
 } from "../../src/assets";
 
@@ -107,9 +108,9 @@ export const companyServices = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Book yourself",
+  "Automatic Renewal",
+  "Membership Plans",
 ];
 
 export const brainwaveServicesIcons = [
@@ -123,18 +124,18 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Pet-a-Palooza",
+    text: "Excavation site at the Pet-a-Palooza!",
+    date: "August 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Camping Trip",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies semper ante, vulputate vehicula enim pretium id. Phasellus facilisis nisi ut laoreet maximus. Aenean sed lacus viverra, posuere neque eu, luctus justo. Suspendisse in felis nibh. Donec ex arcu, feugiat eget finibus sed, faucibus vel massa. Proin dapibus nibh ut accumsan iac",
+    date: "Dez 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
