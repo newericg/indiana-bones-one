@@ -55,28 +55,28 @@ export const navigation = [
   {
     id: "1",
     title: "Rates and Benefits",
-    url: "#pricing",
+    url: "",
   },
   {
     id: "2",
     title: "New Pup's Enrollment",
-    url: "#how-to-use",
+    url: "",
   },
   {
     id: "3",
     title: "Vote on Ideas",
-    url: "#roadmap",
+    url: "",
   },
   {
     id: "4",
     title: "New client",
-    url: "#signup",
+    url: "https://indianabonesdogadventures.simplybook.me/v2/",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Login",
-    url: "#login",
+    url: "",
     onlyMobile: true,
   },
 ];
