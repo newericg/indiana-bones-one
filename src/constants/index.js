@@ -50,33 +50,34 @@ export const navigation = [
   {
     id: "0",
     title: "What we do",
-    url: "/whatwedo",
+    url: "/"
+    // url: "/whatwedo",
   },
   {
     id: "1",
     title: "Rates and Benefits",
-    url: "",
+    url: "/",
   },
   {
     id: "2",
     title: "New Pup's Enrollment",
-    url: "",
+    url: "/newclients",
   },
   {
     id: "3",
     title: "Vote on Ideas",
-    url: "",
+    url: "/",
   },
   {
     id: "4",
     title: "New client",
-    url: "https://indianabonesdogadventures.simplybook.me/v2/",
+    url: "/",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Login",
-    url: "",
+    url: "/",
     onlyMobile: true,
   },
 ];
@@ -394,3 +395,41 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const newClientsInfos = [
+  {
+    title: '"Book the "Meet and Greet"',
+    info: '"Meet and Greet" is an 30-min long appointment where we answer all the question you might have. We also take the time to  get to know your pup  a little better. This appointment can be either in-person or virtual, and is optional! With the meet and greet skipped or executed, we start the next phase which is "The Trials".',
+    
+  },
+  {
+    title: '"Book the first trial"',
+    info: "The trials also known as 'Trials of Destiny' are a three-part evaluation process to assess your pup's behaviour and determine if they are ready to join our pack or if we should wait for the right time. The pup has to go through all the three trials if there is still doubts about their behaviour at the end of the hike.",
+  },
+  {
+    title: 'Two SMSs with links to access the real-time ETA for the pick up and the drop off will be sent th',
+  },
+  {
+    title: 'ANOTHER SMS will be sent AFTER EACH PICK AND EACH DROP OFF.',
+  },
+  {
+    title: 'Fit your pup with a harness. Additionally, you may choose to equip them with a tracker and wait.',
+  },
+  {
+    title: 'During the trials, your pup will go through many scenarios to evaluate their behaviour, recall.',
+  },
+  {
+    title: "Many measures are taken toe ensure the pup's safety:",
+    list: [
+      'Slow introductions to the other dogs already in the car',
+      'Use of our own Satellite tracker.',
+      'Use of bell if available.',
+      'Use of harness to prevent them to slip off the colar.',
+      "Always start with the pup on-leash, the drop the leash and finally off-leash. A few dogs end the hike off-leash but that's not the najority.",
+
+    ]
+  },
+  {
+    title: 'After the third trial, Indiana Bones and the client discuss the results and come to an agreement.',
+  },
+]

@@ -32,7 +32,7 @@ const Services = () => {
                 <img
                   className="w-full h-full object-cover md:object-right opacity-40 sm:opacity-100"
                   width={800}
-                  alt="Smartest AI"
+                  alt="Indiana Dog Picture"
                   height={530}
                   src={service1}
                 />
@@ -57,7 +57,7 @@ const Services = () => {
                 </ul>
                 <div className="flex justify-center sm:justify-start w-full">
 
-                <Button className="mt-10"> Book now!</Button>
+                <Button className="mt-10" href="https://indianabonesdogadventures.simplybook.me/v2/" target="_blank"> Book now!</Button>
                 </div>
               </div>
 

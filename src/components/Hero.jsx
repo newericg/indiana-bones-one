@@ -35,11 +35,11 @@ const Hero = () => {
                   />
                 </span>
               </h1>
-              <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+              <p className="body-1 max-w-3xl mx-auto mb-6 text-n-4 lg:mb-8">
                 When walking won't do the trick
               </p>
               
-                <Button href="/pricing">
+                <Button href="https://indianabonesdogadventures.simplybook.me/v2/" target={"_blank"}>
                   Join Team Indy
                 </Button>
 

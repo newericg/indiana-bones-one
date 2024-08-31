@@ -17,6 +17,8 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import NewClientsPage from "./pages/NewClientsPage";
+import Footer from "./components/Footer";
 
 
 
@@ -29,9 +31,11 @@ const App = ({ routes }) => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/whatwedo" element={<ServicesPage />} />
+          <Route path="/newclients" element={<NewClientsPage />} />
         </Routes>
         <Analytics />
         <SpeedInsights/>
+        <Footer />
       </div>
       <ButtonGradient />
     </>

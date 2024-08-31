@@ -17,7 +17,7 @@ const HomePage = () => {
         <Services />
         {/* <Pricing /> */}
         <Roadmap />
-        <Footer />
+        
     </>
   )
 }

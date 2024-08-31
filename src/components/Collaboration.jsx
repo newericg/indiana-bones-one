@@ -29,7 +29,7 @@ const Collaboration = () => {
                     <h6 className="body-2 ml-5">{item.title}</h6>
                   </div>
                   {item.text && (
-                    <p className="body-2 mt-3 opacity-60">{item.text}</p>
+                    <p className="body-2 mt-3 text-n-3">{item.text}</p>
                   )}
                 </li>
               ))}
