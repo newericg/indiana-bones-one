@@ -1,5 +1,5 @@
 import smallSphere from "./4-small.png";
-import background from "./background.jpg";
+import background from "./hero/dog-header.png";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwave from "./brainwave.svg";

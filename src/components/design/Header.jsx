@@ -1,4 +1,5 @@
 import { background } from "../../assets";
+import { FaPaw } from "react-icons/fa";
 
 // export const Rings = () => {
 //   return (
@@ -21,9 +22,20 @@ export const SideLines = () => {
 export const BackgroundCircles = () => {
   return (
     <>
-      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-secondary to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-secondary to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-primary to-secondary rounded-full"></div>
+      <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
+        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[26deg]">
+        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[226deg]">
+        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        </div>
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[296deg]">
+        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        </div>
+      {/* <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-secondary to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-primary to-secondary rounded-full"></div> */}
     </>
   );
 };
