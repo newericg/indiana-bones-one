@@ -22,16 +22,16 @@ export const SideLines = () => {
 export const BackgroundCircles = () => {
   return (
     <>
-      <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
+      <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[156deg]">
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[26deg]">
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[18deg]">
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[226deg]">
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[205deg]">
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[296deg]">
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[338deg]">
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
       {/* <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-secondary to-[#1A1A32] rounded-full"></div>
