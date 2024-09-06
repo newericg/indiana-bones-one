@@ -8,7 +8,7 @@ import Button from "../components/Button";
 const NewClientsPage = () => {
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col items-center px-8 sm:px-32"
+      className="pt-[12rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col items-center px-8 md:px-32"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -22,21 +22,21 @@ const NewClientsPage = () => {
         
       </Reveal>
       <Reveal>
-        <h1 className="text-xl">
+        <h1 className="h5 sm:h6">
           The enrolment procedure is divided in 2 parts: Meet and Greet and
           Trials.
         </h1>
-        <Button className="my-10 text-center" href="https://indianabonesdogadventures.simplybook.me/v2/" target="_blank"> Book Here</Button>
+        <Button white className="my-10 text-center border-white" href="https://indianabonesdogadventures.simplybook.me/v2/" target="_blank"> Book Here</Button>
         {newClientsInfos.map((item, i) => (
           <div className="text-n-1  sm:w-[89rem] flex flex-col items-center">
-            <h2 className="mt-12 text-xl">
+            <h2 className="mt-12 h5 sm:h6">
               {i + 1} - {item.title}
             </h2>
-            {item.info ? <p className="my-5 text-n-4 text-justify sm:text-center"> {item.info} </p> : null}
+            {item.info ? <p className="my-5 text-color-200 text-justify sm:text-center"> {item.info} </p> : null}
             {item.list ? (
               <ul className="mt-5 ">
                 {item.list.map((item) => (
-                  <li className="text-n-4 text-justify sm:text-center"> - {item} </li>
+                  <li className="text-color-200 text-justify sm:text-center"> - {item} </li>
                 ))}
               </ul>
             ) : null}

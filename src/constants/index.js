@@ -41,7 +41,10 @@ import {
   yourlogo,
   indianabones_logo2,
   dogHiking,
-  dogCollab
+  dogRate1,dogRate2,dogRate3,dogRate4,
+  dogRate6,
+  dogRate7,
+  dogRate5
 
 } from "../../src/assets";
 
@@ -50,13 +53,12 @@ export const navigation = [
   {
     id: "0",
     title: "What we do",
-    url: "/"
-    // url: "/whatwedo",
+    url: "/",
   },
   {
     id: "1",
     title: "Rates and Benefits",
-    url: "/",
+    url: "/rates",
   },
   {
     id: "2",
@@ -125,20 +127,20 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Pet-a-Palooza",
+    title: "The Lost Ark (Animal's Day Pack)",
+    text: "",
+    date: "October 2024",
+    status: "progress",
+    imageUrl: roadmap2,
+  },
+  {
+    id: "1",
+    title: "THE PACK (Dog's Day Pet-a-Palooza)",
     text: "Excavation site at the Pet-a-Palooza!",
     date: "August 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
-  },
-  {
-    id: "1",
-    title: "Camping Trip",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies semper ante, vulputate vehicula enim pretium id. Phasellus facilisis nisi ut laoreet maximus. Aenean sed lacus viverra, posuere neque eu, luctus justo. Suspendisse in felis nibh. Donec ex arcu, feugiat eget finibus sed, faucibus vel massa. Proin dapibus nibh ut accumsan iac",
-    date: "Dez 2024",
-    status: "progress",
-    imageUrl: roadmap2,
   },
   {
     id: "2",
@@ -364,35 +366,35 @@ export const benefits = [
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
+  // {
+  //   id: "0",
+  //   title: "Discord",
+  //   iconUrl: discordBlack,
+  //   url: "#",
+  // },
+  // {
+  //   id: "1",
+  //   title: "Twitter",
+  //   iconUrl: twitter,
+  //   url: "#",
+  // },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/indiana.bones.vancouver/",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
+  // {
+  //   id: "3",
+  //   title: "Telegram",
+  //   iconUrl: telegram,
+  //   url: "#",
+  // },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/indiana.bones.vancouver",
   },
 ];
 
@@ -431,5 +433,100 @@ export const newClientsInfos = [
   },
   {
     title: 'After the third trial, Indiana Bones and the client discuss the results and come to an agreement.',
+  },
+]
+
+export const rates = [
+  {
+    title: 'Dog Hiking (Indiana and Henry Bones Sr.)',
+    picture: dogRate1,
+    info: 'Clients living outside our coverage area have an additional of 10% on the rate',
+    services: [
+      {
+        title: 'Early Risers',
+        price: '$45',
+        description: ' Pick up between 7:00 am and 9 am and drop off between 10:30 am and 1 pm. Total hiking time 1.5 h.'
+      },
+      {
+        title: 'Afternoon Rovers',
+        price: '$45',
+        description: ' Pick up between 10:30 pm and 1 pm and drop off between 2:30 pm and 5 pm.   Total hiking time 1.5 h.'
+      }
+    ]
+  },
+  {
+    title: 'Weekend walks',
+    picture: dogRate2,
+    info: '',
+    services: [
+      {
+        title: 'Max of Two Pups',
+        price: '$45 each',
+        description: '1 hour'
+      },
+    ]
+  },
+  {
+    title: 'Boarding and Dog-Sitting',
+    picture: dogRate5,
+    info: '',
+    obs:'10 % Discount for Membership Holders ',
+  
+    services: [
+      {
+        title: 'Boarding',
+        price: '$88/night',
+        description: 'Our place. 24 hours'
+      },
+      {
+        title: 'Dog sitting',
+        price: '$88/night',
+        description: 'Your place. 24 hours'
+      },
+    ]
+  },
+  {
+    title: 'Camping Trip aka Raiders of the Lost Bark',
+    picture: dogRate6,
+    info: "How: We pick them up, go to a camping site, explore trails, lakes and waterfalls, and drop them off at home. All pups sleep in the tent with the hiker—a maximum of 4 dogs.",
+    obs: '15 % Discount for Membership Holders ',
+    services: [
+      {
+        title: 'Spring/Summer',
+        price: '$299 for 3 days',
+        description: ''
+      },
+    ]
+  },
+  {
+    title: 'Special Days and Discounts',
+    picture: dogRate7,
+    info: 'Discounts are offered in many ways. Here are a few:',
+    obs: 'All discounts, bundles, and freebies will feature a specific time frame for usage. ',
+    services: [
+      {
+        title: 'Seasonal',
+        description: ["Double Trouble (Valentine's Date) - Feb. 14th.", 
+          "May the Furth Be With You (Star War's Day - camping trip discounts) - May 4th.",
+          "THE PACK (Dog's Day Pet-a-Palooza) - Aug. 26th",
+          "The Lost Ark (Animal's Day Pack) - Oct. 4th",
+          "Indy Pumpkin Carving Contest (Halloween prizes) - Oct. 31st",
+          "Caramel, White, and Black FURday (Black Friday bundle)- Nov. 29th"
+
+        ],
+      },
+      {
+        title: 'The Quick Whip',
+        description: "The Quick Whip is an item from Indy's Closet that gives you the ability to quickly grab the daily flash deals. A 25% discount on the following day's unsold hikes."
+      },
+      {
+        title: 'The Satchel (TBD)',
+        description: "The Satchel from Indy's Closet is a special item containing numerous prizes that can be obtained using your loyalty coins. "
+      },,
+      {
+        title: 'The Torch (TBD)',
+        description: "The Torch is an item from Indy's Closet that once lit transports you to the heart of the forest for a thrilling treasure hunt."
+      },
+    ]
   },
 ]

@@ -86,7 +86,16 @@ import dogHeader from './hero/dog-header.png';
 import indianabones_logo from './indianabones_logo.png';
 import indianabones_logo2 from './indianabones_logo2.png';
 
-import dogHiking from './dog-hiking.png'
+import dogHiking from './dog-hiking.png';
+
+import dogRate1 from './rates/galeria3.jpg';
+import dogRate2 from './rates/galeria4.jpg';
+import dogRate3 from './rates/galeria5.jpg';
+import dogRate4 from './rates/galeria8.png';
+import dogRate5 from './rates/foto1.png';
+import dogRate6 from './rates/foto2.png';
+import dogRate7 from './rates/camping1.png';
+
 
 export {
   background, benefitCard1,
@@ -114,6 +123,6 @@ export {
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
-  dogHiking, dogCollab
+  dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7
 };
 

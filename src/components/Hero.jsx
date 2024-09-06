@@ -39,7 +39,7 @@ const Hero = () => {
                 When walking won't do the trick
               </p>
               
-                <Button href="https://indianabonesdogadventures.simplybook.me/v2/" target={"_blank"}>
+                <Button href="/newclients">
                   Join Team Indy
                 </Button>
 

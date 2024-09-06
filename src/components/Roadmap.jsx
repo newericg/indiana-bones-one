@@ -6,6 +6,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import Reveal from "../libs/Reveal";
+import Arrow from "../assets/svg/Arrow";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
@@ -62,6 +63,13 @@ const Roadmap = () => (
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
+                  <div className="flex">
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                      Read more
+                    </p>
+                    <Arrow />
+
+                  </div>
                 </div>
               </div>
             </div>
