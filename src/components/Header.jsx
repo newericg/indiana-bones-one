@@ -74,9 +74,9 @@ const Header = () => {
         >
           New client
         </a>
-        <Button className="hidden lg:flex" href="/">
+        {/* <Button className="hidden lg:flex" href="/">
           Login
-        </Button>
+        </Button> */}
 
         <Button
           className="ml-auto lg:hidden"

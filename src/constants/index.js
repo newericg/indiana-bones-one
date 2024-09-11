@@ -67,21 +67,26 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Vote on Ideas",
-    url: "/",
+    title: "Gizmo Knows",
+    url: "/gizmoknows",
   },
   {
     id: "4",
-    title: "New client",
+    title: "About us",
     url: "/",
-    onlyMobile: true,
   },
   {
     id: "5",
-    title: "Login",
-    url: "/",
+    title: "New client",
+    url: "/newclients",
     onlyMobile: true,
   },
+  // {
+  //   id: "5",
+  //   title: "Login",
+  //   url: "/",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

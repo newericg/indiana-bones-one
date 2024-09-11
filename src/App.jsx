@@ -11,6 +11,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 import NewClientsPage from "./pages/NewClientsPage";
 import Footer from "./components/Footer";
 import Rates from "./pages/Rates";
+import GizmoKnows from "./pages/GizmoKnows";
 
 
 
@@ -25,6 +26,7 @@ const App = ({ routes }) => {
           <Route path="/whatwedo" element={<ServicesPage />} />
           <Route path="/newclients" element={<NewClientsPage />} />
           <Route path="/rates" element={<Rates/>} />
+          <Route path="/gizmoknows" element={<GizmoKnows/>} />
         </Routes>
         <Analytics />
         <SpeedInsights/>
