@@ -3,7 +3,7 @@ import Section from "../components/Section";
 import Reveal from "../libs/Reveal";
 import Heading from "../components/Heading";
 
-const GizmoKnows = () => {
+const GizmoKnowsPage = () => {
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col items-center px-8 sm:px-32"
@@ -28,4 +28,4 @@ const GizmoKnows = () => {
   );
 };
 
-export default GizmoKnows;
+export default GizmoKnowsPage;

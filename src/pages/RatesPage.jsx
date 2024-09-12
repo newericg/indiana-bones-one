@@ -5,7 +5,7 @@ import Heading from "../components/Heading";
 import { rates } from "../constants";
 import Button from "../components/Button";
 
-const Rates = () => {
+const RatesPage = () => {
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col justify-center items-center px-8 sm:px-32"
@@ -78,4 +78,4 @@ const Rates = () => {
   );
 };
 
-export default Rates;
+export default RatesPage;

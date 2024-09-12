@@ -96,6 +96,8 @@ import dogRate5 from './rates/foto1.png';
 import dogRate6 from './rates/foto2.png';
 import dogRate7 from './rates/camping1.png';
 
+import workInProgress from './workinprogress.png'
+
 
 export {
   background, benefitCard1,
@@ -123,6 +125,6 @@ export {
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
-  dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7
+  dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress
 };
 
