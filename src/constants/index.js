@@ -546,7 +546,7 @@ export const rates = [
 export const whatWeDoServices = [
   {
     name: 'Dog Hiking | Vancouver',
-    link: '/doghiking',
+    link: '/dog-hiking-vancouver',
     img: indyDog1,
     description: 'Welcome to our dog hiking service! We offer a friendly and exciting dog hiking experience for your furry friends. '
   },

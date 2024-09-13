@@ -30,13 +30,15 @@ const App = ({ routes }) => {
           <Route path="/rates" element={<RatesPage/>} />
           <Route path="/gizmoknows" element={<GizmoKnowsPage/>} />
           <Route path="/about" element={<WorkInProgressPage/>} />
-          <Route path="/doghiking" element={<DogHikingPage/>} />
+          <Route path="/dog-hiking-vancouver" element={<DogHikingPage/>} />
+          <Route path="/weekend-dog-walking" element={<WorkInProgressPage/>} />
           <Route path="/faq" element={<WorkInProgressPage/>} />
           <Route path="/contact" element={<WorkInProgressPage/>} />
           <Route path="/safetypolicy" element={<WorkInProgressPage/>} />
           <Route path="/cancellationpolicy" element={<WorkInProgressPage/>} />
           <Route path="/privacypolicy" element={<WorkInProgressPage/>} />
           <Route path="/events" element={<WorkInProgressPage/>} />
+          <Route path="/coverage-area-1" element={<WorkInProgressPage/>} />
         </Routes>
         <Analytics />
         <SpeedInsights/>

@@ -1,10 +1,9 @@
-import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
+import {  check } from "../assets";
+import { collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import { indianabones_logo2 } from "../assets";
-import { dogCollab } from "../assets";
 import Reveal from "../libs/Reveal";
 import Heading from "./Heading";
 
