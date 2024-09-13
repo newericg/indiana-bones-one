@@ -37,10 +37,10 @@ const Roadmap = () => (
                   />
                 </div>
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  <div className="flex items-center justify-between max-w-[27rem] mb-15 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
-                    <div className="flex items-center px-4 py-1 bg-white rounded text-color-900">
+                    <div className="flex items-center px-4 py-1 bg-white rounded text-color-900 ">
                       <img
                         className="mr-2.5"
                         src={item.status === "done" ? check2 : loading1}
@@ -54,16 +54,14 @@ const Roadmap = () => (
 
                   <div className="mb-10 -my-10 mx-5 ">
                     <img
-                      className="w-full rounded-xl opacity-85 transition duration-300 ease-in-out hover:shadow-lg"
+                      className="w-full rounded-xl opacity-85 transition duration-300 ease-in-out hover:shadow-lg object-cover"
                       src={item.imageUrl}
-                      width={628}
-                      height={426}
                       alt={item.title}
                     />
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
-                  <div className="flex">
+                  <div className="flex mt-5">
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                       Read more
                     </p>

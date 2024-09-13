@@ -139,8 +139,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "The Lost Ark (Animal's Day Pack)",
-    text: "",
+    title: "Riley's Rips",
+    text: "Ride solo and test your knowledge of the city to find all the checkpoints, or grab some friends or family and tackle it as a team. Manage to find all the checkpoints and earn the coveted Finisher’s Pin.",
     date: "October 2024",
     status: "progress",
     imageUrl: event1,
