@@ -32,6 +32,9 @@ const App = ({ routes }) => {
           <Route path="/about" element={<WorkInProgressPage/>} />
           <Route path="/dog-hiking-vancouver" element={<DogHikingPage/>} />
           <Route path="/weekend-dog-walking" element={<WorkInProgressPage/>} />
+          <Route path="/senior-dog-hiking" element={<WorkInProgressPage/>} />
+          <Route path="/boarding-and-sitting" element={<WorkInProgressPage/>} />
+          <Route path="/camping-trip" element={<WorkInProgressPage/>} />
           <Route path="/faq" element={<WorkInProgressPage/>} />
           <Route path="/contact" element={<WorkInProgressPage/>} />
           <Route path="/safetypolicy" element={<WorkInProgressPage/>} />

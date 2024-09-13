@@ -552,25 +552,25 @@ export const whatWeDoServices = [
   },
   {
     name: 'Senior Dog Hiking',
-    link: '/seniordoghiking',
+    link: '/senior-dog-hiking',
     img: indyDog2,
     description: 'This is a gentler version of our regular hikes for senior dogs. Still off-leash, still in the forest, still 1.5 hours but at a slower pace and less steep. '
   },
   {
     name: 'Weekend Dog Walking',
-    link: '/weekenddog',
+    link: '/weekend-dog-walking',
     img: indyDog3,
     description: 'Our experienced and trained staff will take your dog on a one-hour adventure in a carefully chosen park near your place to ensure maximum safety for your dog during the Weekend Walk.'
   },
   {
     name: 'Boarding | Dog Sitting',
-    link: '/boardingandsitting',
+    link: '/boarding-and-sitting',
     img: indyDog4,
     description: 'Welcome to our exclusive dog-sitting service, tailored specifically for our valued existing clients.'
   },
   {
     name: 'Camping Trip',
-    link: '/campingtrip',
+    link: '/camping-trip',
     img: indyDog5,
     description: 'Embark on an unforgettable adventure with our unique dog camping trip service! Designed exclusively for your furry friends.'
   }
