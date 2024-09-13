@@ -11,7 +11,7 @@ const WorkInProgressPage = () => {
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="hero"
+      
     >
       <Reveal>
         <Heading

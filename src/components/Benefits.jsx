@@ -9,7 +9,7 @@ import Reveal from "../libs/Reveal";
 
 const Benefits = () => {
   return (
-    <Section id="features" className="sm:pb-0">
+    <Section className="sm:pb-0">
       <div className="container relative z-2 sm:mt-0">
         <Reveal>
           <Heading

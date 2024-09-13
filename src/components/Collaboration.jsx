@@ -10,7 +10,7 @@ import Heading from "./Heading";
 
 const Collaboration = () => {
   return (
-    <Section className='mt-10'>
+    <Section className="mt-10">
       <Reveal>
         <Heading
           className="md:max-w-md lg:max-w-2xl text-center"
@@ -35,10 +35,9 @@ const Collaboration = () => {
               ))}
             </Reveal>
           </ul>
-              <div className="flex justify-center sm:justify-start">
-
-          <Button>Read more</Button>
-              </div>
+          <a href="/whatwedo" className="flex justify-center sm:justify-start">
+            <Button>Read more</Button>
+          </a>
         </div>
         <Reveal>
           <div className="lg:ml-auto xl:w-[38rem] mt-20 sm:mt-4">

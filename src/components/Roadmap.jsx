@@ -9,7 +9,7 @@ import Reveal from "../libs/Reveal";
 import Arrow from "../assets/svg/Arrow";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden">
     <div className="container md:pb-10">
     <Reveal>
       <Heading tag="Events" title="Check our latest events!" />
@@ -54,7 +54,7 @@ const Roadmap = () => (
 
                   <div className="mb-10 -my-10 mx-5 ">
                     <img
-                      className="w-full rounded"
+                      className="w-full rounded-xl opacity-85 transition duration-300 ease-in-out hover:shadow-lg"
                       src={item.imageUrl}
                       width={628}
                       height={426}
@@ -81,7 +81,7 @@ const Roadmap = () => (
     </Reveal>
     <Reveal>
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">More events</Button>
+        <Button href="/events">More events</Button>
       </div>
     </Reveal>
     </div>

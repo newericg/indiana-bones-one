@@ -7,6 +7,7 @@ import Roadmap from "../components/Roadmap";
 import Services from "../components/Services";
 
 import React from 'react';
+import GizmoKnowsPage from "./GizmoKnowsPage";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <Services />
         {/* <Pricing /> */}
         <Roadmap />
+        <GizmoKnowsPage />
         
     </>
   )

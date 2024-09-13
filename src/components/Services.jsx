@@ -15,7 +15,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use" className="bg-gradient-to-r from-primary via-color-900/10 to-primary">
+    <Section className="bg-gradient-to-r from-primary via-color-900/10 to-primary">
       <div className="container ">
         <Reveal>
           <Heading

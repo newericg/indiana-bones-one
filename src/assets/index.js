@@ -98,6 +98,15 @@ import dogRate7 from './rates/camping1.png';
 
 import workInProgress from './workinprogress.png'
 
+import indyDog1 from './new-pictures/betty.jpg'
+import indyDog2 from './new-pictures/dog2.jpg'
+import indyDog3 from './new-pictures/dog3.jpg'
+import indyDog4 from './new-pictures/dog4.jpg'
+import indyDog5 from './new-pictures/foto1.png'
+
+import event1 from './new-pictures/event1.png'
+import event2 from './new-pictures/event2.png'
+
 
 export {
   background, benefitCard1,
@@ -125,6 +134,8 @@ export {
   service2,
   service3, slack, sliders04, smallSphere, stars, telegram,
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
-  dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress
+  dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress,
+  indyDog1, indyDog2, indyDog3, indyDog4, indyDog5,
+  event1, event2
 };
 

@@ -44,7 +44,14 @@ import {
   dogRate1,dogRate2,dogRate3,dogRate4,
   dogRate6,
   dogRate7,
-  dogRate5
+  dogRate5,
+  indyDog1,
+  indyDog2,
+  indyDog3,
+  indyDog4,
+  indyDog5,
+  event1,
+  event2
 
 } from "../../src/assets";
 
@@ -65,18 +72,18 @@ export const navigation = [
     title: "New Pup's Enrollment",
     url: "/newclients",
   },
+  // {
+  //   id: "3",
+  //   title: "Gizmo Knows",
+  //   url: "/gizmoknows",
+  // },
   {
     id: "3",
-    title: "Gizmo Knows",
-    url: "/gizmoknows",
-  },
-  {
-    id: "4",
     title: "About us",
     url: "/about",
   },
   {
-    id: "5",
+    id: "4",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,
@@ -136,7 +143,7 @@ export const roadmap = [
     text: "",
     date: "October 2024",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: event1,
   },
   {
     id: "1",
@@ -144,7 +151,7 @@ export const roadmap = [
     text: "Excavation site at the Pet-a-Palooza!",
     date: "August 2024",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: event2,
     colorful: true,
   },
   {
@@ -534,4 +541,65 @@ export const rates = [
       },
     ]
   },
+]
+
+export const whatWeDoServices = [
+  {
+    name: 'Dog Hiking | Vancouver',
+    link: '/doghiking',
+    img: indyDog1,
+    description: 'Welcome to our dog hiking service! We offer a friendly and exciting dog hiking experience for your furry friends. '
+  },
+  {
+    name: 'Senior Dog Hiking',
+    link: '/seniordoghiking',
+    img: indyDog2,
+    description: 'This is a gentler version of our regular hikes for senior dogs. Still off-leash, still in the forest, still 1.5 hours but at a slower pace and less steep. '
+  },
+  {
+    name: 'Weekend Dog Walking',
+    link: '/weekenddog',
+    img: indyDog3,
+    description: 'Our experienced and trained staff will take your dog on a one-hour adventure in a carefully chosen park near your place to ensure maximum safety for your dog during the Weekend Walk.'
+  },
+  {
+    name: 'Boarding | Dog Sitting',
+    link: '/boardingandsitting',
+    img: indyDog4,
+    description: 'Welcome to our exclusive dog-sitting service, tailored specifically for our valued existing clients.'
+  },
+  {
+    name: 'Camping Trip',
+    link: '/campingtrip',
+    img: indyDog5,
+    description: 'Embark on an unforgettable adventure with our unique dog camping trip service! Designed exclusively for your furry friends.'
+  }
+]
+
+
+export const footerPages = [
+  {
+    page: 'About us',
+    link: '/about'
+  },
+  {
+    page: 'FAQ',
+    link: '/faq'
+  },
+  {
+    page: 'Contact us',
+    link: '/contact'
+  },
+  {
+    page: 'Safety Policy - Request',
+    link: '/safetypolicy'
+  },
+  {
+    page: 'Cancellation Policy',
+    link: '/cancellationpolicy'
+  },
+  {
+    page: 'Privacy Policy',
+    link: '/privacypolicy'
+  }
 ]

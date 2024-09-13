@@ -67,16 +67,19 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
+        {/* <a
           href="https://indianabonesdogadventures.simplybook.me/v2/"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
           target="_blank"
         >
           New client
-        </a>
+        </a> */}
         {/* <Button className="hidden lg:flex" href="/">
           Login
         </Button> */}
+        <Button className="hidden lg:flex" href="/newclients">
+          New client
+        </Button>
 
         <Button
           className="ml-auto lg:hidden"
