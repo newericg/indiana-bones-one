@@ -109,6 +109,8 @@ import event2 from './new-pictures/event2.png'
 
 import dogHikingPageImg from './new-pictures/dog-1.png'
 import dogHikingPageImg2 from './new-pictures/dog-2.png'
+import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
+
 
 
 export {
@@ -140,6 +142,6 @@ export {
   dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress,
   indyDog1, indyDog2, indyDog3, indyDog4, indyDog5,
   event1, event2,
-  dogHikingPageImg, dogHikingPageImg2
+  dogHikingPageImg, dogHikingPageImg2, dogHikingPageImgHead
 };
 

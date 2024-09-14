@@ -2,7 +2,11 @@ import React from "react";
 import Section from "../components/Section";
 import Reveal from "../libs/Reveal";
 import Heading from "../components/Heading";
-import { dogHikingPageImg, dogHikingPageImg2 } from "../assets";
+import {
+  dogHikingPageImg,
+  dogHikingPageImg2,
+  dogHikingPageImgHead,
+} from "../assets";
 import Button from "../components/Button";
 
 const summary = [
@@ -41,53 +45,51 @@ const hikingExplained = [
 const DogHikingPage = () => {
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col items-center px-8 sm:px-32"
-      crosses
+      className="pt-[8rem] -mt-[5.25rem] mb-[5.25rem] min-h-screen text-center flex flex-col items-center px-8 sm:px-32"
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
+      verticalLines
     >
+      <picture className="flex sm:h-[40rem] w-screen">
+        <img
+          src={dogHikingPageImgHead}
+          alt="dog barking in the woods"
+          className="object-cover w-full"
+        />
+      </picture>
       <Reveal>
         <Heading
-          className="md:max-w-md lg:max-w-2xl text-center "
-          title="Dog Hiking"
+          className="md:max-w-md lg:max-w-2xl text-center mt-10"
+          title="Dog Hiking | Vancouver"
           tag="Services"
         />
       </Reveal>
 
       <main className="flex flex-col items-center w-full text-justify sm:text-center text-n-4">
-        <div className="lg:flex">
-          <Reveal>
-            <picture className="flex sm:h-[30rem] sm:w-[40rem]">
-              <img
-                src={dogHikingPageImg2}
-                alt="dog barking in the woods"
-                className="object-contain w-full"
-              />
-            </picture>
-          </Reveal>
+        <div className="">
           <div className="flex flex-col justify-start sm:items-center sm:justify-center">
             <Reveal>
-              <p className="mb-10 text-xl">Summary</p>
+              <p className="my-10 text-xl">Summary</p>
             </Reveal>
-            <ul>
-              {summary.map((item, key) => (
-                
+            <Reveal>
+              <ul>
+                {summary.map((item, key) => (
                   <li className=" my-2 w-full text-center">
-                    <b>{item.type}:</b>  {item.text}
+                    <b>{item.type}:</b> {item.text}
                   </li>
-                
-              ))}
-            </ul>
+                ))}
+              </ul>
+            </Reveal>
           </div>
         </div>
 
         <div className="flex flex-col sm:mt-40 lg:w-1/2 items-center">
           <Reveal>
-            <picture className="flex sm:h-[30rem] sm:w-[40rem] my-12">
+            <picture className="flex sm:h-[30rem] sm:w-[40rem] my-12 rounded-xl">
               <img
                 src={dogHikingPageImg}
                 alt="dog barking in the woods"
-                className="object-contain w-full"
+                className="object-contain w-full "
               />
             </picture>
           </Reveal>
