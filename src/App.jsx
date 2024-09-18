@@ -14,6 +14,7 @@ import RatesPage from "./pages/RatesPage";
 import GizmoKnowsPage from "./pages/GizmoKnowsPage";
 import WorkInProgressPage from "./pages/WorkInProgressPage";
 import DogHikingPage from "./pages/DogHikingPage";
+import SafetyPolicyPage from "./pages/SafetyPolicyPage";
 
 
 
@@ -37,7 +38,7 @@ const App = ({ routes }) => {
           <Route path="/camping-trip" element={<WorkInProgressPage/>} />
           <Route path="/faq" element={<WorkInProgressPage/>} />
           <Route path="/contact" element={<WorkInProgressPage/>} />
-          <Route path="/safetypolicy" element={<WorkInProgressPage/>} />
+          <Route path="/safetypolicy" element={<SafetyPolicyPage/>} />
           <Route path="/cancellationpolicy" element={<WorkInProgressPage/>} />
           <Route path="/privacypolicy" element={<WorkInProgressPage/>} />
           <Route path="/events" element={<WorkInProgressPage/>} />

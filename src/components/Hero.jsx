@@ -35,9 +35,9 @@ const Hero = () => {
                   />
                 </span>
               </h1>
-              <p className="body-1 max-w-3xl mx-auto mb-6 text-n-4 lg:mb-8">
+              <h2 className="body-1 max-w-3xl mx-auto mb-6 text-n-4 lg:mb-8">
                 When walking won't do the trick
-              </p>
+              </h2>
               
                 <Button href="/newclients">
                   Join Team Indy
@@ -65,7 +65,7 @@ const Hero = () => {
         </div>
       </div>
       <Reveal>
-        <CompanyLogos className="hidden relative z-10 my-20 lg:block company-logos w-screen" />
+        <CompanyLogos className="relative z-10 my-20 company-logos w-screen flex flex-col items-center" />
       </Reveal>
 
       <BottomLine />

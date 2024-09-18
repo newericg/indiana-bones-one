@@ -34,7 +34,7 @@ const ServicesPage = () => {
                 />
               </picture>
               <h1 className="text-xl sm:my-4 text-n-3 mt-10"> {service.name} </h1>
-              <p className="text-n-4 text-justify">
+              <p className="text-n-4 text-justify mt-5">
                 {service.description}
               </p>
               <a href={service.link} className="flex my-5 mt-auto">

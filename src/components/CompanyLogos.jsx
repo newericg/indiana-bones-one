@@ -1,24 +1,25 @@
+import CountUp from 'react-countup';
 import { companyServices } from "../constants";
 
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50 text-4xl">
+      <h1 className="tagline mb-6 text-center text-n-1/50 text-xl sm:text-4xl w-2/3">
         We are accepting new clients! Join Team Indy!
-      </h5>
-      {/* <ul className="flex my-5">
+      </h1>
+      <ul className="flex flex-col sm:flex-row my-5 w-1/2 text-n-1/50">
         {companyServices.map((item, index) => (
           <li
-            className="flex flex-col items-center justify-center flex-1 h-[15.5rem]"
+            className="flex flex-col items-center justify-center flex-1 h-[15.5rem] my-10"
             key={index}
           >
-            <img src={item.image} width={134} height={28} alt={item.image} />
+            <CountUp delay={5} end={item.number} duration={5.75} className='text-5xl'/>
             <p className="uppercase py-5">
               { item.text }
             </p>
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };

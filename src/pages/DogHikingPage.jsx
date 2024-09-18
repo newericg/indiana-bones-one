@@ -108,7 +108,7 @@ const DogHikingPage = () => {
           <Button
             href="https://indianabonesdogadventures.simplybook.me/v2/#book"
             target="_blank"
-            className="mx-auto sm:mx-1 w-1/2 md:w-1/6 mt-10"
+            className="mx-auto sm:mx-1 w-1/2 md:w-[10rem] mt-10"
           >
             Book Now
           </Button>

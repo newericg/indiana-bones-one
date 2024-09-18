@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-3 mt-5 mb-20 sm:m-0">
             {footerPages.map((pages) => (
-              <a href={pages.link} className="font-code uppercase transition-colors hover:text-color-1">
+              <a href={pages.link} className="font-code uppercase transition-colors hover:text-color-800">
                 <nav>{pages.page}</nav>
               </a>
             ))}

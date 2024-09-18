@@ -51,7 +51,8 @@ import {
   indyDog4,
   indyDog5,
   event1,
-  event2
+  event2,
+  event3
 
 } from "../../src/assets";
 
@@ -102,15 +103,17 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyServices = [
   {
-    text: "Dog Hiking",
-    image: dogHiking
+    text: "Clients",
+    number: 463
   },
-  // {
-  //   text: "Henry Bones Sr."
-  // },
-  // {
-  //   text: "Weekend Dog Walking"
-  // },
+  {
+    text: "Happy Dogs",
+    number: 845
+  },
+  {
+    text: "Trained Dogs",
+    number: 366
+  },
   // {
   //   text: "Camping Trip"
   // },
@@ -141,13 +144,13 @@ export const roadmap = [
     id: "0",
     title: "Riley's Rips",
     text: "Ride solo and test your knowledge of the city to find all the checkpoints, or grab some friends or family and tackle it as a team. Manage to find all the checkpoints and earn the coveted Finisher’s Pin.",
-    date: "October 2024",
-    status: "progress",
+    date: "April 2024",
+    status: "done",
     imageUrl: event1,
   },
   {
     id: "1",
-    title: "THE PACK (Dog's Day Pet-a-Palooza)",
+    title: "Pet-a-Palooza",
     text: "Excavation site at the Pet-a-Palooza!",
     date: "August 2024",
     status: "done",
@@ -155,12 +158,12 @@ export const roadmap = [
     colorful: true,
   },
   {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    id: "3",
+    title: "Pumpkin Carving Festival",
+    text: "",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: event3,
   },
   {
     id: "3",
@@ -601,5 +604,245 @@ export const footerPages = [
   {
     page: 'Privacy Policy',
     link: '/privacypolicy'
+  }
+]
+
+export const safetyMeasures = [
+  {
+    title: 'First-Aid Training and Kits',
+    policy: 'All dog hikers are equipped with first-aid kits and have received dog first-aid training.',
+    records: 'Training certificates and first-aid kit checklists.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Vaccination and Health Checks',
+    policy: 'Emphasis on up-to-date vaccinations and proper identification.',
+    records: 'Vaccination records and health check logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Leash Policy',
+    policy: 'Recommending leash use on marked trails for safety and ecological integrity.',
+    records: 'Leash policy acknowledgment forms.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Bear Safety',
+    policy: 'Providing guidelines for bear-proofing and noise-making to avoid surprising bears.',
+    records: 'Bear safety training logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Health Hazard Awareness',
+    policy: 'Advising against pets drinking from streams or ponds and recommending tick checks',
+    records: 'Health hazard awareness training logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Real-Time ETA Sharing',
+    policy: 'Monitoring arrival times of dog walkers using a real-time ETA-sharing feature.',
+    records: 'System logs of ETA sharing.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Satellite Trackers',
+    policy: 'Hikers have satellite trackers for dogs not behaving normally or during trials. One tracker per hiker.',
+    records: 'Tracker usage logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Safety Equipment',
+    policy: 'Hikers are provided with bear spray, car dividers, hooks to secure dogs, trunk nets, and middle seat covers with flaps to prevent dogs from jumping out of vehicles.',
+    records: 'Equipment inventory and maintenance logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Portable Showers',
+    policy: 'Used to refresh dogs during summer hikes.',
+    records: 'Usage logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Individual Baskets',
+    policy: 'Provided for territorial and anxious dogs in the car.',
+    records: 'Inventory logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Emergency Procedures',
+    policy: 'Clear written procedures for handling emergencies like runaways, epilepsy, serious injuries, car accidents, etc.',
+    records: 'Emergency procedure logs and incident reports.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Bells',
+    policy: 'Provided to hikers, likely for bear awareness and dog location.',
+    records: 'Inventory logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Rigorous Dog Trials',
+    policy: "All dogs undergo strict trials before being approved to ensure everyone's physical integrity.",
+    records: 'Trial results and approval logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Hiker Background Checks',
+    policy: "All hikers have references checked, undergo criminal record checks, and driver's record checks.",
+    records: 'Background check records.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Drone for Missing Dogs',
+    policy: "The company is equipped with a drone in case of a missing dog (never used so far).",
+    records: 'Drone usage logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Severe Weather Adaptations',
+    policy: "Hike durations are reduced during severe weather conditions.",
+    records: 'Weather adaptation logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Trail Adjustments',
+    policy: "Planned trails may be changed based on daily safety assessments.",
+    records: 'Trail adjustment logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'Group Size Limitation',
+    policy: "West Vancouver bylaws permit only 6 dogs per dog hiker.",
+    records: 'Group size logs.',
+    reviewFrequency: 'Annually.'
+  },
+  {
+    title: 'GPS Trackers',
+    policy: "Used in the forest to monitor dogs' locations.",
+    records: ' GPS tracking logs.',
+    reviewFrequency: 'Annually.'
+  },
+  
+]
+
+export const safetyStaffOnly = [
+  {
+    mainTitle: 'ISO 9001:2015 Compliance Elements Context of the Organization',
+    itens: [
+      {
+        title: 'Scope of the QMS',
+        text: 'This policy applies to all safety and operational measures of Indiana Bones Dog Adventures.'
+      },
+      {
+        title: 'Interested Parties',
+        text: 'Clients, staff, and regulatory bodies.'
+      },
+    ],
+  },
+  {
+    mainTitle: 'Leadership',
+    itens: [
+      {
+        title: 'Quality Policy',
+        text: 'Indiana Bones Dog Adventures is committed to providing high-quality dog hiking services that meet customer expectations and regulatory requirements.'
+      },
+      {
+        title: 'Roles and Responsibilities',
+        text: 'The management team is responsible for ensuring compliance with this policy and addressing any issues that arise.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Planning',
+    itens: [
+      {
+        title: 'Quality Objectives',
+        text: 'To maintain a high level of customer satisfaction and ensure the safety and well-being of all dogs in our care.'
+      },
+      {
+        title: 'Risk Management',
+        text: 'Regularly assess and mitigate risks related to safety and operational measures.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Support',
+    itens: [
+      {
+        title: 'Resources',
+        text: 'Ensure adequate staffing and resources to meet service commitments.'
+      },
+      {
+        title: 'Competence and Training',
+        text: 'Staff will receive ongoing training to handle safety and operational measures efficiently.'
+      },
+      {
+        title: 'Communication',
+        text: 'Clear communication channels will be maintained with clients regarding any changes or safety measures.'
+      }
+    ]
+  },
+  {
+    mainTitle: 'Operation',
+    itens: [
+      {
+        title: 'Operational Planning and Control',
+        text: 'All hikes will be planned and controlled to meet customer requirements.'
+      },
+      {
+        title: 'Customer Communication',
+        text: 'Clients will be informed promptly of any changes or safety measures.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Performance Evaluation',
+    itens: [
+      {
+        title: 'Monitoring and Measurement',
+        text: 'Regularly monitor and measure customer satisfaction and service performance.'
+      },
+      {
+        title: 'Internal Audits',
+        text: 'Conduct internal audits to ensure compliance with this policy.'
+      },
+      {
+        title: 'Management Review',
+        text: 'The policy will be reviewed annually to ensure its effectiveness and relevance.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Improvement',
+    itens: [
+      {
+        title: 'Nonconformity and Corrective Action',
+        text: 'Address any nonconformities promptly and take corrective actions to prevent recurrence.'
+      },
+      {
+        title: 'Continual Improvement',
+        text: 'Continuously seek ways to improve safety and operational measures.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Records',
+    itens: [
+      {
+        title: 'Documented Information',
+        text: 'Maintain records of all safety measures, training, and client communications.'
+      },
+      {
+        title: 'Review Frequency',
+        text: 'This policy will be reviewed annually and updated as necessary to ensure ongoing compliance with ISO 9001:2015 requirements.'
+      },
+    ]
+  }
+]
+
+export const cancellationPolicyMembership = [
+  {
+    type: 'Definitions',
+    
   }
 ]
