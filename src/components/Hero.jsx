@@ -18,7 +18,7 @@ const Hero = () => {
       customPaddings
       verticalLines
     >
-      {/* <div className="mt-15 container relative" ref={parallaxRef}>
+      <div className="my-15 container relative" ref={parallaxRef}>
         <div>
           <Reveal>
             <div className="relative z-10 max-w-[62rem] mx-auto text-center mb-[3.875rem] lg:mb-[6.25rem]">
@@ -63,15 +63,15 @@ const Hero = () => {
             <BackgroundCircles />
           </div>
         </div>
-      </div> */}
-      <div className="h-screen w-screen overflow-hidden">
+      </div>
+      {/* <div className="h-screen w-screen overflow-hidden">
         <video playsInline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
           <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4" type="video/mp4" />
         </video>
         <video playsInline autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
-          <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4" type="video/mp4" />
+          <source playsInline src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4" type="video/mp4" />
         </video>
-      </div>
+      </div> */}
       <Reveal>
         <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos w-screen flex flex-col items-center" />
       </Reveal>
