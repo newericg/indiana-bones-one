@@ -65,10 +65,10 @@ const Hero = () => {
         </div>
       </div> */}
       <div className="h-screen w-screen overflow-hidden">
-        <video autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
+        <video playsinline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
           <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4" type="video/mp4" />
         </video>
-        <video autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
+        <video playsinline autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
           <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4" type="video/mp4" />
         </video>
       </div>
