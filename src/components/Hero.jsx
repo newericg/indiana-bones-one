@@ -6,19 +6,19 @@ import CompanyLogos from "./CompanyLogos";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import Reveal from "../libs/Reveal";
+import  {videoHero1, heroHorizontal, heroVertical}  from "../assets";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] min-h-screen"
-      crosses
+      className="pt-[8rem] -mt-[5.25rem] relative min-h-screen w-screen"
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      
+      verticalLines
     >
-      <div className="container relative" ref={parallaxRef}>
+      {/* <div className="container relative" ref={parallaxRef}>
         <div>
           <Reveal>
             <div className="relative z-10 max-w-[62rem] mx-auto text-center mb-[3.875rem] lg:mb-[6.25rem]">
@@ -63,12 +63,20 @@ const Hero = () => {
             <BackgroundCircles />
           </div>
         </div>
+      </div> */}
+      <div className="h-screen w-screen overflow-hidden">
+        <video autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
+          <source src={heroHorizontal} type="video/mp4" />
+        </video>
+        <video autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
+          <source src={heroVertical} type="video/mp4" />
+        </video>
       </div>
       <Reveal>
-        <CompanyLogos className="relative z-10 my-20 company-logos w-screen flex flex-col items-center" />
+        <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos w-screen flex flex-col items-center" />
       </Reveal>
 
-      <BottomLine />
+      {/* <BottomLine /> */}
     </Section>
   );
 };

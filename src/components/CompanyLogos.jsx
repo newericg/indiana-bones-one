@@ -13,7 +13,7 @@ const CompanyLogos = ({ className }) => {
             className="flex flex-col items-center justify-center flex-1 h-[15.5rem] my-10"
             key={index}
           >
-            <CountUp delay={5} end={item.number} duration={5.75} className='text-5xl'/>
+            <CountUp delay={3} end={item.number} duration={5.75} className='text-5xl'/>
             <p className="uppercase py-5">
               { item.text }
             </p>

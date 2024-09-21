@@ -52,7 +52,8 @@ import {
   indyDog5,
   event1,
   event2,
-  event3
+  event3,
+  halloween1
 
 } from "../../src/assets";
 
@@ -78,13 +79,13 @@ export const navigation = [
   //   title: "Gizmo Knows",
   //   url: "/gizmoknows",
   // },
+  // {
+  //   id: "3",
+  //   title: "About us",
+  //   url: "/about",
+  // },
   {
     id: "3",
-    title: "About us",
-    url: "/about",
-  },
-  {
-    id: "4",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,
@@ -103,16 +104,20 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyServices = [
   {
-    text: "Clients",
-    number: 463
+    text: "Pup Clients",
+    number: 415
   },
   {
-    text: "Happy Dogs",
-    number: 845
+    text: "Hikes",
+    number: 2880
   },
   {
-    text: "Trained Dogs",
-    number: 366
+    text: "Camping Trips",
+    number: 19
+  },
+  {
+    text: "Dog Sittings",
+    number: 134
   },
   // {
   //   text: "Camping Trip"
@@ -142,11 +147,11 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Riley's Rips",
-    text: "Ride solo and test your knowledge of the city to find all the checkpoints, or grab some friends or family and tackle it as a team. Manage to find all the checkpoints and earn the coveted Finisher’s Pin.",
-    date: "April 2024",
-    status: "done",
-    imageUrl: event1,
+    title: "Pumpkin Carving Festival 2024",
+    text: "",
+    date: "October 2024",
+    status: "progress",
+    imageUrl: halloween1,
   },
   {
     id: "1",
@@ -155,13 +160,21 @@ export const roadmap = [
     date: "August 2024",
     status: "done",
     imageUrl: event2,
-    colorful: true,
+    // colorful: true,
+  },
+  {
+    id: "2",
+    title: "Riley's Rips",
+    text: "Ride solo and test your knowledge of the city to find all the checkpoints, or grab some friends or family and tackle it as a team. Manage to find all the checkpoints and earn the coveted Finisher’s Pin.",
+    date: "April 2024",
+    status: "done",
+    imageUrl: event1,
   },
   {
     id: "3",
-    title: "Pumpkin Carving Festival",
+    title: "Pumpkin Carving Festival 2023",
     text: "",
-    date: "May 2023",
+    date: "October 2023",
     status: "done",
     imageUrl: event3,
   },
@@ -169,7 +182,7 @@ export const roadmap = [
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "October 2023",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -304,7 +317,7 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "ETA sharing",
+    title: "Real Time ETA sharing",
     text: "Monitor the arrival time of our dog walkers as they come to pick up your pup using our real-time ETA-sharing feature. We prioritize your time and strive to ensure a seamless and convenient experience for both you and your furry friend.",
     backgroundUrl: "assets/benefits/galeria1.jpg",
     iconUrl: benefitIcon1,
@@ -372,7 +385,7 @@ export const benefits = [
   },
   {
     id: "8",
-    title: "ISO9001 Project",
+    title: "ISO 9001 Project",
     text: "We are progressively adapting our processes to meet ISO 9001 requirements in preparation for future certification. This approach delivers benefits throughout the execution phase, not just upon completion.",
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
@@ -553,12 +566,12 @@ export const whatWeDoServices = [
     img: indyDog1,
     description: 'Welcome to our dog hiking service! We offer a friendly and exciting dog hiking experience for your furry friends. '
   },
-  {
-    name: 'Senior Dog Hiking',
-    link: '/senior-dog-hiking',
-    img: indyDog2,
-    description: 'This is a gentler version of our regular hikes for senior dogs. Still off-leash, still in the forest, still 1.5 hours but at a slower pace and less steep. '
-  },
+  // {
+  //   name: 'Senior Dog Hiking',
+  //   link: '/senior-dog-hiking',
+  //   img: indyDog2,
+  //   description: 'This is a gentler version of our regular hikes for senior dogs. Still off-leash, still in the forest, still 1.5 hours but at a slower pace and less steep. '
+  // },
   {
     name: 'Weekend Dog Walking',
     link: '/weekend-dog-walking',
@@ -594,7 +607,7 @@ export const footerPages = [
     link: '/contact'
   },
   {
-    page: 'Safety Policy - Request',
+    page: 'Safety Policy',
     link: '/safetypolicy'
   },
   {
@@ -843,6 +856,35 @@ export const safetyStaffOnly = [
 export const cancellationPolicyMembership = [
   {
     type: 'Definitions',
-    
-  }
+    itens: [
+      {
+        title:'Membership Agreement Duration',
+        info: '3 months (84 days)',
+      },
+      {
+        title:'Membership Payment Schedule',
+        info: 'Every 4 weeks (28 days), with 3 installments per membership period',
+      },
+
+    ]
+  },
+  {
+    type: 'Payment',
+    itens: [
+      {
+        info: 'Membership clients commit to 3 months, with automatic renewal unless cancelled.',
+      },
+      {
+        info: 'Every 4 weeks (28 days), with 3 installments per membership period',
+      },
+      {
+        info: 'Membership rates may change annually with advanced notice.',
+      },
+      {
+        info: 'The membership period begins on the Saturday before the first hike.',
+      },
+
+    ]
+  },
+
 ]

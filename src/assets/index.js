@@ -107,14 +107,21 @@ import indyDog5 from './new-pictures/foto1.png'
 import event1 from './new-pictures/event1.png'
 import event2 from './new-pictures/event2.png'
 import event3 from './new-pictures/event3.png'
+import halloween1 from './new-pictures/H1.jpg'
 
 import dogHikingPageImg from './new-pictures/dog-1.png'
 import dogHikingPageImg2 from './new-pictures/dog-2.png'
 import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
 
+import videoHero1 from './videos/hero-background-one.MP4'
+
+import heroVertical from './videos/hero-oficial-vertical.MP4'
+import heroHorizontal from './videos/hero-oficial-horizontal.MP4'
+
 
 
 export {
+  videoHero1, heroHorizontal, heroVertical,
   background, benefitCard1,
   benefitCard2,
   benefitCard3,
@@ -142,7 +149,7 @@ export {
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
   dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress,
   indyDog1, indyDog2, indyDog3, indyDog4, indyDog5,
-  event1, event2, event3,
+  event1, event2, event3, halloween1,
   dogHikingPageImg, dogHikingPageImg2, dogHikingPageImgHead
 };
 

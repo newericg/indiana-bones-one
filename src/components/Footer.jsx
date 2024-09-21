@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <p className=" lg:block text-center">
-          Indiana Bones Dog Adventures © {new Date().getFullYear()}. All rights
+          Indiana Bones Dog Adventures Corp. © 2021. All rights
           reserved.
         </p>
 

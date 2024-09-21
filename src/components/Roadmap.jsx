@@ -16,8 +16,8 @@ const Roadmap = () => (
     </Reveal>
     <Reveal>
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.slice(0,3).map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
+        {roadmap.slice(0,4).map((item) => {
+          const status = item.status === "done" ? "Done" : "Comming up!";
 
           return (
             <div
@@ -77,11 +77,11 @@ const Roadmap = () => (
         {/* <Gradient /> */}
       </div>
     </Reveal>
-    <Reveal>
+    {/* <Reveal>
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/events">More events</Button>
       </div>
-    </Reveal>
+    </Reveal> */}
     </div>
   </Section>
 );

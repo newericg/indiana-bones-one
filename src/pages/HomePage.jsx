@@ -15,7 +15,7 @@ const HomePage = () => {
         <Hero />
         <Collaboration />
         <Benefits />
-        <Services />
+        {/* <Services /> */}
         {/* <Pricing /> */}
         <Roadmap />
         <GizmoKnowsPage />

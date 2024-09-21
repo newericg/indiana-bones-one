@@ -66,7 +66,7 @@ const Services = () => {
             <Reveal>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative h-[49rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
                   src={service2}
@@ -90,12 +90,12 @@ const Services = () => {
               <PhotoChatMessage />
             </div>
 
-            <div className="p-4 flex flex-col justify-between bg-primary border border-n-1/10 rounded-3xl overflow-hidden lg:min-h-[46rem]">
+            <div className="p-4 flex flex-col justify-between bg-primary border border-n-1/10 rounded-3xl overflow-hidden h-[36rem] self-end">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">"Your Dog's Dream Come True".</h4>
-                <p className="body-2 mb-[2rem]">
+                {/* <h4 className="h4 mb-4">"Your Dog's Dream Come True".</h4> */}
+                <h2 className="text-xl body-1 mb-[2rem] text-center">
                   Unfiltered Footage of Our Off-Leash Dog Hiking Adventures.
-                </p>
+                </h2>
 
                 {/* <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (

@@ -34,10 +34,10 @@ const Benefits = () => {
                   <p className="body-2 mb-6 text-n-4">{item.text}</p>
                   <div className="flex items-center mt-auto">
                   <LiaDogSolid  size={50} color="#5E7A5E" />
-                    <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                    {/* <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                       Read more
                     </p>
-                    <Arrow />
+                    <Arrow /> */}
                   </div>
                 </div>
 
