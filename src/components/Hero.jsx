@@ -1,15 +1,13 @@
 import { useRef } from "react";
+import { curve, dogHeader } from "../assets";
+import Button from "./Button";
+// import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 import Section from "./Section";
+import { BackgroundCircles, BottomLine } from "./design/Hero";
 import Reveal from "../libs/Reveal";
+// import  {videoHero1, heroHorizontal, heroVertical}  from "../assets";
 import AutoPlaySilentVideo from "./VideoComponent";
-
-const classDesktop = "hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover";
-const videoDesktop =
-  "https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4";
-const classMobile = "sm:hidden h-[90vh] w-screen m-0 p-0 object-cover";
-const videoMobile =
-  "https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -67,24 +65,24 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="h-screen w-screen overflow-hidden">
-        {/* <AutoPlaySilentVideo
-          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-muted-gi8OyCaHmkfRlncqZQio0RfU0el1IV.mp4"
+      {/* <div className="h-screen w-screen overflow-hidden">
+        <AutoPlaySilentVideo
+          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4"
           className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover"
-        ></AutoPlaySilentVideo> */}
-        {/* <video playsInline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
+        ></AutoPlaySilentVideo>
+        <video playsInline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
            <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4" type="video/mp4" />
-         </video> */}
+         </video>
 
-        {/* <AutoPlaySilentVideo
-          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-muted-nzvb7Wgmx8ND5xvUKQseUB6Q77Vbss.mp4"
+        <AutoPlaySilentVideo
+          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4"
           className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover"
-        ></AutoPlaySilentVideo> */}
+        ></AutoPlaySilentVideo>
 
-        {/* <video playsInline autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
+        <video playsInline autoPlay muted loop id="myVideo" className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover">
           <source playsInline src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4" type="video/mp4" />
-        </video> */}
-      </div>
+        </video>
+      </div> */}
       <Reveal>
         <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos w-screen flex flex-col items-center" />
       </Reveal>
