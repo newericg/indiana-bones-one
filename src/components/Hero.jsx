@@ -67,7 +67,7 @@ const Hero = () => {
       </div> */}
       <div className="h-screen w-screen overflow-hidden">
         <AutoPlaySilentVideo
-          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4"
+          video="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-muted-gi8OyCaHmkfRlncqZQio0RfU0el1IV.mp4"
           className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>
         {/* <video playsInline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
