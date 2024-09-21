@@ -14,7 +14,7 @@ const CompanyLogos = ({ className }) => {
             key={index}
           >
             <CountUp delay={3} end={item.number} duration={5.75} className='text-2xl sm:text-5xl'/>
-            <p className="uppercase py-5">
+            <p className="uppercase sm:py-5">
               { item.text }
             </p>
           </li>
