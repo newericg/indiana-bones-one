@@ -113,15 +113,14 @@ import dogHikingPageImg from './new-pictures/dog-1.png'
 import dogHikingPageImg2 from './new-pictures/dog-2.png'
 import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
 
-import videoHero1 from './videos/hero-background-one.MP4'
+// import videoHero1 from './videos/hero-background-one.MP4'
 
-import heroVertical from './videos/hero-oficial-vertical.MP4'
-import heroHorizontal from './videos/hero-oficial-horizontal.MP4'
+// import heroVertical from './videos/hero-oficial-vertical.MP4'
+// import heroHorizontal from './videos/hero-oficial-horizontal.MP4'
 
 
 
 export {
-  videoHero1, heroHorizontal, heroVertical,
   background, benefitCard1,
   benefitCard2,
   benefitCard3,
