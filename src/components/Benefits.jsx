@@ -14,7 +14,7 @@ const Benefits = () => {
         <Reveal>
           <Heading
             className="md:max-w-md lg:max-w-2xl text-center "
-            title="What set us apart?"
+            title="What sets us apart?"
             tag="Features"
           />
         </Reveal>
