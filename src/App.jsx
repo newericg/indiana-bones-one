@@ -15,6 +15,8 @@ import GizmoKnowsPage from "./pages/GizmoKnowsPage";
 import WorkInProgressPage from "./pages/WorkInProgressPage";
 import DogHikingPage from "./pages/DogHikingPage";
 import SafetyPolicyPage from "./pages/SafetyPolicyPage";
+import VoteOnIdeasPage from "./pages/VoteOnIdeasPage";
+import QuickWhipPage from "./pages/QuickWhipPage";
 
 
 
@@ -43,6 +45,8 @@ const App = ({ routes }) => {
           <Route path="/privacypolicy" element={<WorkInProgressPage/>} />
           <Route path="/events" element={<WorkInProgressPage/>} />
           <Route path="/coverage-area-1" element={<WorkInProgressPage/>} />
+          <Route path="/vote-on-ideas" element={<VoteOnIdeasPage/>} />
+          <Route path="/quick-whip" element={<QuickWhipPage/>} />
         </Routes>
         <Analytics />
         <SpeedInsights/>

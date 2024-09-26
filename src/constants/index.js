@@ -74,18 +74,18 @@ export const navigation = [
     title: "New Pup's Enrollment",
     url: "/newclients",
   },
-  // {
-  //   id: "3",
-  //   title: "Gizmo Knows",
-  //   url: "/gizmoknows",
-  // },
-  // {
-  //   id: "3",
-  //   title: "About us",
-  //   url: "/about",
-  // },
   {
     id: "3",
+    title: "Vote on Ideas!",
+    url: "/vote-on-ideas",
+  },
+  {
+    id: "4",
+    title: "Quick Whip | 25% Off Hike",
+    url: "/quick-whip",
+  },
+  {
+    id: "4",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,
@@ -887,4 +887,14 @@ export const cancellationPolicyMembership = [
     ]
   },
 
+]
+
+export const quickWhip = [
+  {
+    tutorial: "Introducing Indy's Quick Whip - your daily chance to snag the remaining dog hiking spots for the next day at a 25% discount! This swift and exciting 30-minute deal kicks off at 4 pm from Sunday to Thursday, offering you the chance to secure those coveted spots before they vanish. Be quick as a whip, grab that treasure, and leave fast because the clock is ticking!",
+    period: 'Sunday to Thursday',
+    time: '4 P.M. to 4:30 PM',
+    rules: 'The purchase limit is one hike every two weeks. The client is required to have purchased at least one regular hike 28 days before the event.',
+    ruleTwo: 'In case a second hike is bought within 14 days of the last purchase, the payment will be refunded and the spot will be made available in the system again.'
+  }
 ]
