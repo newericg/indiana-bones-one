@@ -22,7 +22,7 @@ const QuickWhipPage = () => {
         />
       </Reveal>
       <Reveal>
-        <div className="w-full sm:w-1/2 mx-auto flex flex-col items-center gap-5">
+        <div className="w-full sm:w-1/2 mx-auto flex flex-col items-center gap-5 text-justify sm:text-center">
         <img className="sm:h-[35rem] w-[30rem]" src={indyDog2} alt="" />
           <p className="mt-5"> {quickWhip[0].tutorial} </p>
           <h2 className="my-5 text-xl text-color-400">Rules</h2>
