@@ -17,7 +17,7 @@ const Roadmap = () => (
     <Reveal>
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.slice(0,4).map((item) => {
-          const status = item.status === "done" ? "Done" : "Comming up!";
+          const status = item.status === "done" ? "Done" : "Coming up!";
 
           return (
             <div
