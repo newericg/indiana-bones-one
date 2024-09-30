@@ -17,6 +17,7 @@ import DogHikingPage from "./pages/DogHikingPage";
 import SafetyPolicyPage from "./pages/SafetyPolicyPage";
 import VoteOnIdeasPage from "./pages/VoteOnIdeasPage";
 import QuickWhipPage from "./pages/QuickWhipPage";
+import EventsPage from "./pages/EventsPage";
 
 
 
@@ -47,6 +48,7 @@ const App = ({ routes }) => {
           <Route path="/coverage-area-1" element={<WorkInProgressPage/>} />
           <Route path="/vote-on-ideas" element={<VoteOnIdeasPage/>} />
           <Route path="/quick-whip" element={<QuickWhipPage/>} />
+          {/* <Route path="/riley-rips"  element={<EventsPage/>} /> */}
         </Routes>
         <Analytics />
         <SpeedInsights/>

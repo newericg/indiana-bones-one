@@ -86,7 +86,7 @@ export const navigation = [
     url: "/quick-whip",
   },
   {
-    id: "4",
+    id: "5",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,
@@ -148,7 +148,7 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Indiana Bones and Nature CrusAID",
+    title: "Indiana Bones and the Nature CrusAID",
     text: "",
     date: "October 2024",
     status: "progress",
@@ -178,6 +178,13 @@ export const roadmap = [
     date: "April 2024",
     status: "done",
     imageUrl: event1,
+    details: '/riley-rips',
+    detailsPage: [
+      {
+        title: 'Riley Rips',
+        tag: 'Event'
+      }
+    ]
   },
   {
     id: "4",
@@ -897,5 +904,12 @@ export const quickWhip = [
     time: '4 P.M. to 4:30 PM',
     rules: 'The purchase limit is one hike every two weeks. The client is required to have purchased at least one regular hike 28 days before the event.',
     ruleTwo: 'In case a second hike is bought within 14 days of the last purchase, the payment will be refunded and the spot will be made available in the system again.'
+  }
+]
+
+export const events = [
+  {
+    title: 'Riley Rips',
+    tag: 'Event'
   }
 ]
