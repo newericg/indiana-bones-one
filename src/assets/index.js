@@ -108,6 +108,7 @@ import event1 from './new-pictures/event1.png'
 import event2 from './new-pictures/event2.png'
 import event3 from './new-pictures/event3.png'
 import halloween1 from './new-pictures/H1.jpg'
+import crusAid from './roadmap/crusaid.jpeg'
 
 import dogHikingPageImg from './new-pictures/dog-1.png'
 import dogHikingPageImg2 from './new-pictures/dog-2.png'
@@ -149,7 +150,7 @@ export {
   twitter, undone, yourlogo, benefitImage1, benefitImage2, benefitImage3, benefitImage4, benefitImage5, benefitImage6,
   dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress,
   indyDog1, indyDog2, indyDog3, indyDog4, indyDog5,
-  event1, event2, event3, halloween1,
+  event1, event2, event3, halloween1, crusAid,
   dogHikingPageImg, dogHikingPageImg2, dogHikingPageImgHead
 };
 

@@ -53,7 +53,8 @@ import {
   event1,
   event2,
   event3,
-  halloween1
+  halloween1,
+  crusAid
 
 } from "../../src/assets";
 
@@ -147,6 +148,14 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
+    title: "Indiana Bones and Nature CrusAID",
+    text: "",
+    date: "October 2023",
+    status: "progress",
+    imageUrl: crusAid,
+  },
+  {
+    id: "1",
     title: "Pumpkin Carving Festival 2024",
     text: "",
     date: "October 2024",
@@ -154,7 +163,7 @@ export const roadmap = [
     imageUrl: halloween1,
   },
   {
-    id: "1",
+    id: "2",
     title: "Pet-a-Palooza",
     text: "Excavation site at the Pet-a-Palooza!",
     date: "August 2024",
@@ -163,7 +172,7 @@ export const roadmap = [
     // colorful: true,
   },
   {
-    id: "2",
+    id: "3",
     title: "Riley's Rips",
     text: "Ride solo and test your knowledge of the city to find all the checkpoints, or grab some friends or family and tackle it as a team. Manage to find all the checkpoints and earn the coveted Finisher’s Pin.",
     date: "April 2024",
@@ -171,20 +180,12 @@ export const roadmap = [
     imageUrl: event1,
   },
   {
-    id: "3",
+    id: "4",
     title: "Pumpkin Carving Festival 2023",
     text: "",
     date: "October 2023",
     status: "done",
     imageUrl: event3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "October 2023",
-    status: "progress",
-    imageUrl: roadmap4,
   },
 ];
 
