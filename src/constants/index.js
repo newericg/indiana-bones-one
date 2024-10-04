@@ -627,18 +627,18 @@ export const footerPages = [
     page: 'Contact us',
     link: '/contact'
   },
-  {
-    page: 'Safety Policy',
-    link: '/safetypolicy'
-  },
-  {
-    page: 'Cancellation Policy',
-    link: '/cancellationpolicy'
-  },
-  {
-    page: 'Privacy Policy',
-    link: '/privacypolicy'
-  }
+  // {
+  //   page: 'Safety Policy',
+  //   link: '/safetypolicy'
+  // },
+  // {
+  //   page: 'Cancellation Policy',
+  //   link: '/cancellationpolicy'
+  // },
+  // {
+  //   page: 'Privacy Policy',
+  //   link: '/privacypolicy'
+  // }
 ]
 
 export const safetyMeasures = [
