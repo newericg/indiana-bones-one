@@ -1,4 +1,4 @@
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 import { companyServices } from "../constants";
 
 const CompanyLogos = ({ className }) => {
@@ -13,10 +13,15 @@ const CompanyLogos = ({ className }) => {
             className="flex flex-col items-center justify-center flex-1 h-[15.5rem] my-10"
             key={index}
           >
-            <CountUp delay={3} end={item.number} duration={5.75} className='text-2xl sm:text-5xl'/>
-            <p className="uppercase sm:py-5">
-              { item.text }
-            </p>
+            <CountUp
+              delay={3}
+              end={item.number}
+              duration={5.75}
+              enableScrollSpy={true}
+              scrollSpyOnce={true}
+              className="text-2xl sm:text-5xl"
+            />
+            <p className="uppercase sm:py-5">{item.text}</p>
           </li>
         ))}
       </ul>

@@ -400,6 +400,14 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
+  {
+    id: "9",
+    title: "Our Innovative Drone Services",
+    text: "Elevating safety with our certified drone feature, from lost pet searches to aerial wedding photography (no charge applied) - innovation meets compassion (charge applied).",
+    backgroundUrl: "assets/benefits/galeria4.jpg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage1,
+  },
 ];
 
 export const socials = [
