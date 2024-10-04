@@ -81,6 +81,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import youtube from "./socials/youtube.svg"
 
 import dogHeader from './hero/dog-header.png';
 import indianabones_logo from './indianabones_logo.png';
@@ -136,7 +137,7 @@ export {
   brainwave, brainwaveSymbol,
   brainwaveWhiteSymbol, check,
   check2, chromecast, coins, curve, curve1,
-  curve2, disc02, discord, discordBlack, dogHeader, done, facebook, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, indianabones_logo, indianabones_logo2, instagram, lines, loading, loading1, notification1,
+  curve2, disc02, discord, discordBlack, dogHeader, done, facebook, youtube, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, indianabones_logo, indianabones_logo2, instagram, lines, loading, loading1, notification1,
   notification2,
   notification3,
   notification4, notion,

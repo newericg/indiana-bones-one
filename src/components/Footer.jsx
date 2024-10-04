@@ -2,7 +2,7 @@ import React from "react";
 import { socials, footerPages } from "../constants";
 import Section from "./Section";
 import { indianabones_logo2 } from "../assets";
-import { CiPhone } from "react-icons/ci";
+import { FaSms } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const Footer = () => {
@@ -31,8 +31,8 @@ const Footer = () => {
               <p className="ml-5"> logistics@indianabones.ca</p>
             </div>
             <div className="flex">
-              <CiPhone size={20} title="phone icon" />
-              <p className="ml-5">+1 (778) 871-INDY (4639) - text</p>
+              <FaSms  size={20} title="sms icon" />
+              <p className="ml-5">+1 (778) 871-INDY (4639)</p>
             </div>
           </div>
         </div>

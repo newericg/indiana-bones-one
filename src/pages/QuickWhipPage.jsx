@@ -22,14 +22,12 @@ const QuickWhipPage = () => {
         />
       </Reveal>
       <Reveal>
-        <div className="w-full sm:w-1/2 mx-auto flex flex-col items-center gap-5 text-justify sm:text-center">
+        <div className="w-full sm:w-1/2 mx-auto flex flex-col items-center gap-5 text-justify sm:text-center text-color-300">
         <img className="sm:h-[35rem] w-[30rem]" src={indyDog2} alt="" />
           <p className="mt-5"> {quickWhip[0].tutorial} </p>
-          <h2 className="my-5 text-xl text-color-400">Rules</h2>
+          <h2 className="my-5 text-xl text-color-500">Rules</h2>
           <p>Period: {quickWhip[0].period} </p>
           <p>Time: {quickWhip[0].time} </p>
-          <p>{quickWhip[0].rules} </p>
-          <p>{quickWhip[0].ruleTwo} </p>
         </div>
       </Reveal>
 

@@ -14,6 +14,7 @@ import {
   discord,
   discordBlack,
   facebook,
+  youtube,
   figma,
   file02,
   framer,
@@ -415,7 +416,7 @@ export const socials = [
   //   url: "#",
   // },
   {
-    id: "2",
+    id: "0",
     title: "Instagram",
     iconUrl: instagram,
     url: "https://www.instagram.com/indiana.bones.vancouver/",
@@ -427,10 +428,16 @@ export const socials = [
   //   url: "#",
   // },
   {
-    id: "4",
+    id: "1",
     title: "Facebook",
     iconUrl: facebook,
     url: "https://www.facebook.com/indiana.bones.vancouver",
+  },
+  {
+    id: "2",
+    title: "Youtube",
+    iconUrl: youtube,
+    url: "https://www.youtube.com/@-Team.Indy-",
   },
 ];
 
@@ -474,14 +481,14 @@ export const newClientsInfos = [
 
 export const rates = [
   {
-    title: 'Dog Hiking (Indiana and Henry Bones Sr.)',
+    title: 'Dog Hiking',
     picture: dogRate1,
-    info: 'Clients living outside our coverage area have an additional of 10% on the rate',
+    info: '',
     services: [
       {
         title: 'Early Risers',
         price: '$45',
-        description: ' Pick up between 7:00 am and 9 am and drop off between 10:30 am and 1 pm. Total hiking time 1.5 h.'
+        description: ' Pick up between 7:00 am and 8:30 am and drop off between 10:30 am and 1 pm. Total hiking time 1.5 h.'
       },
       {
         title: 'Afternoon Rovers',
@@ -524,11 +531,11 @@ export const rates = [
   {
     title: 'Camping Trip aka Raiders of the Lost Bark',
     picture: dogRate6,
-    info: "How: We pick them up, go to a camping site, explore trails, lakes and waterfalls, and drop them off at home. All pups sleep in the tent with the hiker—a maximum of 4 dogs.",
+    info: "",
     obs: '15 % Discount for Membership Holders ',
     services: [
       {
-        title: 'Spring/Summer',
+        title: 'Seasonal Service - Spring/Summer',
         price: '$299 for 3 days',
         description: ''
       },
@@ -543,26 +550,24 @@ export const rates = [
       {
         title: 'Seasonal',
         description: ["Double Trouble (Valentine's Date) - Feb. 14th.", 
-          "May the Furth Be With You (Star War's Day - camping trip discounts) - May 4th.",
-          "THE PACK (Dog's Day Pet-a-Palooza) - Aug. 26th",
-          "The Lost Ark (Animal's Day Pack) - Oct. 4th",
-          "Indy Pumpkin Carving Contest (Halloween prizes) - Oct. 31st",
-          "Caramel, White, and Black FURday (Black Friday bundle)- Nov. 29th"
-
+          "May the Furth Be With You (Star War's Day) - May 4th.",
+          "Pet-a-Palooza - August",
+          "Animal's Day Pack - Oct. 4th",
+          "Indy Pumpkin Carving Contest - Oct. 31st",
         ],
       },
       {
         title: 'The Quick Whip',
         description: "The Quick Whip is an item from Indy's Closet that gives you the ability to quickly grab the daily flash deals. A 25% discount on the following day's unsold hikes."
       },
-      {
-        title: 'The Satchel (TBD)',
-        description: "The Satchel from Indy's Closet is a special item containing numerous prizes that can be obtained using your loyalty coins. "
-      },,
-      {
-        title: 'The Torch (TBD)',
-        description: "The Torch is an item from Indy's Closet that once lit transports you to the heart of the forest for a thrilling treasure hunt."
-      },
+      // {
+      //   title: 'The Satchel (TBD)',
+      //   description: "The Satchel from Indy's Closet is a special item containing numerous prizes that can be obtained using your loyalty coins. "
+      // },
+      // {
+      //   title: 'The Torch (TBD)',
+      //   description: "The Torch is an item from Indy's Closet that once lit transports you to the heart of the forest for a thrilling treasure hunt."
+      // },
     ]
   },
 ]
@@ -902,8 +907,6 @@ export const quickWhip = [
     tutorial: "Introducing Indy's Quick Whip - your daily chance to snag the remaining dog hiking spots for the next day at a 25% discount! This swift and exciting 30-minute deal kicks off at 4 pm from Sunday to Thursday, offering you the chance to secure those coveted spots before they vanish. Be quick as a whip, grab that treasure, and leave fast because the clock is ticking!",
     period: 'Sunday to Thursday',
     time: '4 P.M. to 4:30 PM',
-    rules: 'The purchase limit is one hike every two weeks. The client is required to have purchased at least one regular hike 28 days before the event.',
-    ruleTwo: 'In case a second hike is bought within 14 days of the last purchase, the payment will be refunded and the spot will be made available in the system again.'
   }
 ]
 
