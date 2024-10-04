@@ -19,7 +19,7 @@ const HomePage = () => {
         {/* <Services /> */}
         {/* <Pricing /> */}
         <Roadmap />
-        <Timeline />
+        {/* <Timeline /> */}
         <GizmoKnowsPage />
         
     </>
