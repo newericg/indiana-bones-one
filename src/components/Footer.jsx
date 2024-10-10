@@ -35,15 +35,19 @@ const Footer = () => {
                 <nav>{pages.page}</nav>
               </a>
             ))}
-             <Menu setActive={setActive}>
+            <Menu setActive={setActive}>
               <MenuItem setActive={setActive} active={active} item="Policies">
                 <div className="flex flex-col space-y-4 text-sm">
                   <HoveredLink href="/safetypolicy">Safety Policy</HoveredLink>
-                  <HoveredLink href="/cancellationpolicy">Cancellation Policy</HoveredLink>
-                  <HoveredLink href="/privacypolicy">Privacy Policy</HoveredLink>
+                  <HoveredLink href="/cancellationpolicy">
+                    Cancellation Policy
+                  </HoveredLink>
+                  <HoveredLink href="/privacypolicy">
+                    Privacy Policy
+                  </HoveredLink>
                 </div>
               </MenuItem>
-             </Menu>
+            </Menu>
           </div>
           <div className="flex flex-col gap-5">
             <div className="flex">
@@ -56,6 +60,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p className=" lg:block text-center">
+          Trademark Disclaimer: Indiana Bones Dog Adventures is an independent
+          dog hiking service. Our company name is a playful pun and is not
+          affiliated with, endorsed by, or connected to Lucasfilm Ltd. LLC, the
+          owners of the Indiana Jones trademark. We provide distinct services
+          unrelated to the Indiana Jones entertainment franchise.
+        </p>
         <p className=" lg:block text-center">
           Indiana Bones Dog Adventures Corp. © 2021. All rights reserved.
         </p>

@@ -88,6 +88,9 @@ import indianabones_logo from './indianabones_logo.png';
 import indianabones_logo2 from './indianabones_logo2.png';
 
 import dogHiking from './dog-hiking.png';
+import banner2 from './new-pictures/banner2.jpg'
+import banner3 from './new-pictures/banner3.jpg'
+import banner4 from './new-pictures/banner4.jpg'
 
 import dogRate1 from './rates/galeria3.jpg';
 import dogRate2 from './rates/galeria4.jpg';
@@ -113,6 +116,14 @@ import crusAid from './roadmap/crusaid.jpeg'
 
 import dogHikingPageImg from './new-pictures/dog-1.png'
 import dogHikingPageImg2 from './new-pictures/dog-2.png'
+import dogHikingPageImg3 from './new-pictures/dog3.jpg'
+import dogHikingPageImg4 from './new-pictures/dog4.jpg'
+import dogHikingPageImg5 from './new-pictures/dog5.png'
+import dogHikingPageImg6 from './new-pictures/dog6.png'
+import dogHikingPageImg7 from './new-pictures/dog7.png'
+
+
+
 import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
 
 // import videoHero1 from './videos/hero-background-one.MP4'
@@ -152,6 +163,8 @@ export {
   dogHiking, dogCollab, dogRate1, dogRate2, dogRate3, dogRate4, dogRate5, dogRate6, dogRate7, workInProgress,
   indyDog1, indyDog2, indyDog3, indyDog4, indyDog5,
   event1, event2, event3, halloween1, crusAid,
-  dogHikingPageImg, dogHikingPageImg2, dogHikingPageImgHead
+  dogHikingPageImg, dogHikingPageImg2, dogHikingPageImg3, dogHikingPageImg4, dogHikingPageImg5, dogHikingPageImg6, dogHikingPageImg7,
+  dogHikingPageImgHead,
+  banner2, banner3, banner4
 };
 

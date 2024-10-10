@@ -149,19 +149,19 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Indiana Bones and the Nature CrusAID",
-    text: "",
-    date: "October 2024",
-    status: "progress",
-    imageUrl: crusAid,
-  },
-  {
-    id: "1",
     title: "Pumpkin Carving Festival 2024",
     text: "Annual Event!",
     date: "October 2024",
     status: "progress",
     imageUrl: halloween1,
+  },
+  {
+    id: "1",
+    title: "Indiana Bones and the Nature CrusAID",
+    text: "",
+    date: "October 2024",
+    status: "done",
+    imageUrl: crusAid,
   },
   {
     id: "2",

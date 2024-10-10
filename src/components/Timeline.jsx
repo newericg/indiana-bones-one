@@ -4,7 +4,7 @@ import { TimelineComponent } from "./design/TimelineComponent";
 export function Timeline() {
   const data = [
     {
-      title: "2024",
+      title: "2021",
       content: (
         <div>
           <p
@@ -120,33 +120,17 @@ export function Timeline() {
       ),
     },
     {
-      title: "Changelog",
+      title: "2021",
       content: (
         <div>
-          <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
-          </p>
+          <h2
+            className="text-secondary md:text-sm mb-4">
+            Oct 4th
+          </h2>
           <div className="mb-8">
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div
-              className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
+              First Spark
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

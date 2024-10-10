@@ -18,6 +18,9 @@ import SafetyPolicyPage from "./pages/SafetyPolicyPage";
 import VoteOnIdeasPage from "./pages/VoteOnIdeasPage";
 import QuickWhipPage from "./pages/QuickWhipPage";
 import EventsPage from "./pages/EventsPage";
+import WeekendDogWalkingPage from "./pages/WeekendDogWalkingPage";
+import BoardingDogSittingPage from "./pages/BoardingDogSittingPage";
+import CampingTripPage from "./pages/CampingTripPage";
 
 
 
@@ -35,10 +38,10 @@ const App = ({ routes }) => {
           <Route path="/gizmoknows" element={<GizmoKnowsPage/>} />
           <Route path="/about" element={<WorkInProgressPage/>} />
           <Route path="/dog-hiking-vancouver" element={<DogHikingPage/>} />
-          <Route path="/weekend-dog-walking" element={<WorkInProgressPage/>} />
+          <Route path="/weekend-dog-walking" element={<WeekendDogWalkingPage/>} />
           <Route path="/senior-dog-hiking" element={<WorkInProgressPage/>} />
-          <Route path="/boarding-and-sitting" element={<WorkInProgressPage/>} />
-          <Route path="/camping-trip" element={<WorkInProgressPage/>} />
+          <Route path="/boarding-and-sitting" element={<BoardingDogSittingPage/>} />
+          <Route path="/camping-trip" element={<CampingTripPage />} />
           <Route path="/faq" element={<WorkInProgressPage/>} />
           <Route path="/contact" element={<WorkInProgressPage/>} />
           <Route path="/safetypolicy" element={<SafetyPolicyPage/>} />
