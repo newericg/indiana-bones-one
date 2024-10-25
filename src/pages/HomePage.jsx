@@ -18,8 +18,8 @@ const HomePage = () => {
         <Benefits />
         {/* <Services /> */}
         {/* <Pricing /> */}
-        <Roadmap />
-        {/* <Timeline /> */}
+        {/* <Roadmap /> */}
+        <Timeline />
         <GizmoKnowsPage />
         
     </>

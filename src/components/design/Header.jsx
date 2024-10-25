@@ -23,7 +23,7 @@ export const BackgroundCircles = () => {
   return (
     <>
       <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[156deg]">
-        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        {/* <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[18deg]">
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
@@ -32,7 +32,7 @@ export const BackgroundCircles = () => {
         <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
         </div>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[338deg]">
-        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/>
+        <FaPaw className="w-6 h-6 -ml-3 -mt-3 transition-transform duration-500 ease-out"/> */}
         </div>
       {/* <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-secondary to-[#1A1A32] rounded-full"></div>
       <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-primary to-secondary rounded-full"></div> */}

@@ -131,6 +131,19 @@ import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
 import heroVertical from './videos/hero-oficial-vertical-muted.mp4'
 import heroHorizontal from './videos/hero-oficial-horizontal-muted.mp4'
 
+import oldLogo from './timeline/old-logo.jpg'
+import piper from './timeline/piper.jpg'
+import wes from './timeline/wes.jpg'
+import lwEmployer from './timeline/lw-employer.png'
+import bestVancouver from './timeline/best-vanc.jpg'
+import rileyEvent from './timeline/riley-event.png'
+import petPalooza from './timeline/palooza.png'
+import crusAidevent from './timeline/crusaid.jpg'
+import trademark from './timeline/trademark.jpg'
+import googleReview from './timeline/google-reviews.jpg'
+import halloween2023 from './timeline/halloween-timeline.jpg'
+import indyDiscounted from './timeline/indy-discounted.png'
+
 
 
 export {
@@ -165,6 +178,8 @@ export {
   event1, event2, event3, halloween1, crusAid,
   dogHikingPageImg, dogHikingPageImg2, dogHikingPageImg3, dogHikingPageImg4, dogHikingPageImg5, dogHikingPageImg6, dogHikingPageImg7,
   dogHikingPageImgHead,
-  banner2, banner3, banner4
+  banner2, banner3, banner4,
+  oldLogo, piper, wes, lwEmployer, bestVancouver, rileyEvent, petPalooza, crusAidevent, trademark, googleReview, halloween2023, indyDiscounted
+
 };
 

@@ -907,6 +907,150 @@ export const cancellationPolicyMembership = [
 
     ]
   },
+  {
+    type: 'Discontinuation of the Service',
+    itens: [
+      {
+        info: 'Agreements are automatically renewed unless written notice is provided.',
+      },
+      {
+        info: 'Early termination incurs a 25% fee on remaining unpaid installments.',
+      },
+      {
+        info: 'Paid installments are non-refundable, except for illness or injury with a veterinarian’s note',
+      },
+    ]
+  },
+  {
+    type: 'Cancellations and Time Away',
+    itens: [
+      {
+        info: 'Hikes may be cancelled or rescheduled by Indiana Bones due to safety or staff capacity issues, with full refunds provided.',
+      },
+      {
+        info: 'Severe weather cancellations offer alternative options.',
+      },
+      {
+        info: 'Clients can reschedule with 48-hour notice; otherwise, a 100% charge applies.',
+      },
+      {
+        info: 'Monthly rescheduling limits based on membership level:',
+        info2: [
+          '1-2 hikes/week: 1 reschedule/month', '3-5 hikes/week: 2 reschedules/month'
+        ]
+      },
+      {
+        info: 'Cancelled hikes cannot be carried over but can be replaced with coupons valid within the 3 months.',
+      },
+      {
+        info: 'For inquiries, contact logistics@indianabones.ca.',
+      },
+    ]
+  },
+  {
+    type: 'Time Away',
+    itens: [
+      {
+        info: 'Clients may suspend membership for up to 3 weeks per year with adjusted payments.',
+      },
+      {
+        info: 'Additional time off incurs a 50% fee per missed hike to maintain the reserved spot.',
+      },
+      {
+        info: 'Cancelling membership requires a 6-month wait before rejoining.',
+      },
+    ]
+  },
+
+]
+
+export const cancellationPolicyNonMembers = [
+  {
+    type: 'Payment',
+    itens: [
+      {
+        info: 'Bookings must be made online with full payment at the time of booking.',
+      },
+      {
+        info: 'Appointments can be scheduled up to two months in advance.',
+      },
+
+    ]
+  },
+  {
+    type: 'Discontinuation',
+    itens: [
+      {
+        info: 'Clients discontinuing the service receive a 75% refund for the remaining hikes.',
+      },
+    ]
+  },
+  {
+    type: 'Cancellation',
+    itens: [
+      {
+        info: 'Indiana Bones may cancel hikes for safety or staff reasons, with full refunds provided.',
+      },
+      {
+        info: 'Severe weather cancellations offer alternative options.',
+      },
+      {
+        info: 'Clients must provide 48-hour notice to reschedule; otherwise, a 100% charge applies.',
+      },
+      {
+        info: 'One hike per month can be rescheduled; further cancellations are non-refundable unless for illness or injury with a veterinarian’s note.',
+      },
+      {
+        info: 'No-shows are non-refundable.',
+      },
+      {
+        info: 'For inquiries, contact logistics@indianabones.ca.',
+      },
+      
+    ]
+  },
+]
+
+export const privacyPolicy = [
+  {
+    title: 'Consent',
+    info: 'By using our website, you consent to our Privacy Policy and agree to its terms.'
+  },
+  {
+    title: 'Information We Collect',
+    info: 'When you are asked to provide personal information, the reasons will be made clear at the point of collection. Additional information may be collected if you contact us directly, such as your name, email address, phone number, and the content of your message. When you register for an account, we may request contact information, including name, company name, address, email address, and telephone number.'
+  },
+  {
+    title: 'How We Use the Information',
+    info: 'The information collected is used in various ways, including:',
+    infoList: [
+      'To provide, operate, and maintain our website.', 'To improve, personalize, and expand our website.', 'To understand and analyze how you use our website.', 'To develop new products, services, features, and functionality.', 'To communicate with you for customer service, updates, marketing, and promotional purposes.', 'To send you emails.', 'To find and prevent fraud.'
+    ]
+  },
+  {
+    title: 'Log Files',
+    info: 'Indiana Bones Dog Adventures uses log files to log visitors when they visit websites. This includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamps, referring/exit pages, and the number of clicks. This information is not linked to any personally identifiable information and is used to analyze trends, administer the site, track user movement, and gather demographic information.',
+  },
+  {
+    title: 'Cookies',
+    info: 'Indiana Bones Dog Adventures uses cookies to store information about visitors preferences and the pages they accessed or visited. This information is used to optimize the user experience by customizing web page content based on visitors browser types and other information.',
+  },
+  {
+    title: 'Third Party Privacy Policies',
+    info: "Indiana Bones Dog Adventures's Privacy Policy does not apply to other advertisers or websites. We advise consulting the respective Privacy Policies of these third-party ad servers for more detailed information, including their practices and instructions on how to opt out of certain options. You can choose to disable cookies through your browser options.",
+  },
+  {
+    title: 'Data Protection Rights',
+    info: 'We aim to ensure you are fully aware of your data protection rights. Every user is entitled to the following:',
+    info2: 'If you make a request, we have one month to respond. If you wish to exercise any of these rights, please contact us.',
+    infoList: [
+      'The right to access: Request copies of your data (a small fee may apply).', 'The right to rectification: Request correction of any inaccurate information.', 'The right to erasure: Request the deletion of your data under certain conditions.', 'The right to restrict processing: Request restriction of processing your data under certain conditions.', 'The right to object to processing: Object to our processing of your data under certain conditions.', 'The right to data portability: Request transfer of your data to another organization or directly to you under certain conditions.'
+    ]
+  },
+  {
+    title: "Children's Information",
+    info: "Protecting children’s privacy online is important. We encourage parents and guardians to monitor and guide their children's online activities. Indiana Bones Dog Adventures does not knowingly collect any personally identifiable information from children under 13. If you believe your child has provided such information on our website, please contact us immediately, and we will do our best to promptly remove it from our records.",
+  },
 
 ]
 

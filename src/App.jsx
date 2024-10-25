@@ -21,6 +21,8 @@ import EventsPage from "./pages/EventsPage";
 import WeekendDogWalkingPage from "./pages/WeekendDogWalkingPage";
 import BoardingDogSittingPage from "./pages/BoardingDogSittingPage";
 import CampingTripPage from "./pages/CampingTripPage";
+import CancellationPolicyPage from "./pages/CancellationPolicyPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 
 
@@ -45,8 +47,8 @@ const App = ({ routes }) => {
           <Route path="/faq" element={<WorkInProgressPage/>} />
           <Route path="/contact" element={<WorkInProgressPage/>} />
           <Route path="/safetypolicy" element={<SafetyPolicyPage/>} />
-          <Route path="/cancellationpolicy" element={<WorkInProgressPage/>} />
-          <Route path="/privacypolicy" element={<WorkInProgressPage/>} />
+          <Route path="/cancellationpolicy" element={<CancellationPolicyPage/>} />
+          <Route path="/privacypolicy" element={<PrivacyPolicyPage/>} />
           <Route path="/events" element={<WorkInProgressPage/>} />
           <Route path="/coverage-area-1" element={<WorkInProgressPage/>} />
           <Route path="/vote-on-ideas" element={<VoteOnIdeasPage/>} />
