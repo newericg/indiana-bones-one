@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { curve, dogHeader } from "../assets";
+import { curve, dogHeader, heroHalloweenHorizontal, heroHalloweenVertical } from "../assets";
 import Button from "./Button";
 // import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
@@ -67,15 +67,16 @@ const Hero = () => {
       </div> */}
       <div className="h-screen overflow-hidden">
         <AutoPlaySilentVideo
-          video={heroHorizontal}
-          className="-mt-15 hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
+          video={heroHalloweenHorizontal}
+          // className="-mt-15 hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
+          className="hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>
         {/* <video playsInline autoPlay muted loop id="myVideo" className="hidden sm:block h-[85vh] w-screen m-0 p-0 object-cover">
            <source src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-horizontal-ipsYG48QCVTPeJ1HWlnMO96xrf2p9f.MP4" type="video/mp4" />
          </video> */}
 
         <AutoPlaySilentVideo
-          video={heroVertical}
+          video={heroHalloweenVertical}
           className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>
 

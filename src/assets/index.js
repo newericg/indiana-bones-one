@@ -130,6 +130,8 @@ import dogHikingPageImgHead from './new-pictures/dog-hiking-section.jpg'
 
 import heroVertical from './videos/hero-oficial-vertical-muted.mp4'
 import heroHorizontal from './videos/hero-oficial-horizontal-muted.mp4'
+import heroHalloweenVertical from './videos/hero-halloween-vertical.mp4'
+import heroHalloweenHorizontal from './videos/hero-halloween-horizontal.mp4'
 
 import oldLogo from './timeline/old-logo.jpg'
 import piper from './timeline/piper.jpg'
@@ -147,7 +149,7 @@ import indyDiscounted from './timeline/indy-discounted.png'
 
 
 export {
-  heroHorizontal, heroVertical,
+  heroHorizontal, heroVertical, heroHalloweenHorizontal, heroHalloweenVertical,
   background, benefitCard1,
   benefitCard2,
   benefitCard3,
