@@ -7,7 +7,7 @@ const CompanyLogos = ({ className }) => {
       <h1 className="tagline mb-6 text-center text-n-1/50 text-xl sm:text-4xl w-2/3">
         We are accepting new clients! Join Team Indy!
       </h1>
-      <ul className="flex flex-col sm:flex-row sm:my-5 w-1/2 text-n-1/50">
+      <ul className="flex flex-col sm:flex-row sm:my-5 text-n-1/50 w-full">
         {companyServices.map((item, index) => (
           <li
             className="flex flex-col items-center justify-center flex-1 h-[15.5rem] my-10"

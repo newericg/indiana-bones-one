@@ -10,11 +10,11 @@ import  {heroHorizontal, heroVertical}  from "../assets";
 import AutoPlaySilentVideo from "./VideoComponent";
 
 const Hero = () => {
-  const parallaxRef = useRef(null);
+  
 
   return (
     <Section
-      className="pt-[8rem] -mt-[5.25rem] relative min-h-screen w-screen"
+      className="pt-[8rem] -mt-[5.25rem] relative min-h-screen"
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       verticalLines
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
         </div>
       </div> */}
-      <div className="h-screen w-screen overflow-hidden">
+      <div className="h-screen overflow-hidden">
         <AutoPlaySilentVideo
           video={heroHorizontal}
           className="-mt-15 hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
@@ -84,7 +84,7 @@ const Hero = () => {
         </video> */}
       </div>
       <Reveal>
-        <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos w-screen flex flex-col items-center" />
+        <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos flex flex-col items-center" />
       </Reveal>
 
       {/* <BottomLine /> */}

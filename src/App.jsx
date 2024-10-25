@@ -30,7 +30,7 @@ const App = ({ routes }) => {
 
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden bg-primary">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] bg-primary">
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
