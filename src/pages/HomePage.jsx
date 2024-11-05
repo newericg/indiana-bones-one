@@ -24,7 +24,7 @@ const HomePage = () => {
     <>
       <Hero />
       <Collaboration />
-      <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos flex flex-col items-center" />
+      <CompanyLogos className="relative my-12 sm:mb-20 sm:mt-32 company-logos flex flex-col justify-center items-center background-banner-1 h-32" />
       <Benefits />
       <Timeline />
       <GizmoKnowsPage />
