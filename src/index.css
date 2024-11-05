@@ -35,12 +35,13 @@
 .background-banner-1 {
   background-image: url('./assets/new-pictures/banner3.jpg');
   background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 100%
 }
 
 .bg-black-layer {
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(0, 0, 0, 0.479);
   width: 100vw;
   height: 100%;
 }

@@ -4,10 +4,10 @@ import { companyServices } from "../constants";
 
 const CompanyLogos = ({ className }) => {
   return (
-    <Reveal>
+    <Reveal width="100%">
       <div className={className}>
-        <div className="flex flex-col justify-center items-center w-2/3 bg-black-layer py-32">
-          <h1 className="tagline mb-6 text-center text-n-1/50 text-xl sm:text-4xl w-2/3">
+        <div className="flex flex-col justify-center items-center bg-black-layer py-32">
+          <h1 className="tagline mb-6 text-center text-n-1/50 text-xl sm:text-4xl">
             We are accepting new clients! Join Team Indy!
           </h1>
           <ul className="flex flex-col sm:flex-row sm:my-5 text-n-1/50 w-full">
