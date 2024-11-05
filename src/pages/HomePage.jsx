@@ -5,25 +5,34 @@ import Hero from "../components/Hero";
 import Pricing from "../components/Pricing";
 import Roadmap from "../components/Roadmap";
 import Services from "../components/Services";
+import CompanyLogos from "../components/CompanyLogos";
 
-import React from 'react';
+import React from "react";
 import GizmoKnowsPage from "./GizmoKnowsPage";
-import  {Timeline}  from "../components/Timeline";
+import { Timeline } from "../components/Timeline";
 
+
+var t = document.createElement("script");
+  t.setAttribute("type", "text/javascript");
+  t.setAttribute("src", "https://cdn.ywxi.net/js/1.js");
+  parent.document.getElementsByTagName("head")[0].appendChild(t);
+
+  
 const HomePage = () => {
+
   return (
     <>
-        <Hero />
-        <Collaboration />
-        <Benefits />
-        {/* <Services /> */}
-        {/* <Pricing /> */}
-        {/* <Roadmap /> */}
-        <Timeline />
-        <GizmoKnowsPage />
-        
+      <Hero />
+      <Collaboration />
+      <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos flex flex-col items-center" />
+      <Benefits />
+      <Timeline />
+      <GizmoKnowsPage />
+      {/* <Services /> */}
+      {/* <Pricing /> */}
+      {/* <Roadmap /> */}
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

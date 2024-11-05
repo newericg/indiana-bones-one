@@ -84,9 +84,6 @@ const Hero = () => {
           <source playsInline src="https://ijwrynw7lgxgxcmm.public.blob.vercel-storage.com/hero-oficial-vertical-YuJVa5BFSkhwAUAAJtLLNHm7ntzeXy.mp4" type="video/mp4" />
         </video> */}
       </div>
-      <Reveal>
-        <CompanyLogos className="relative sm:mb-20 sm:mt-32 company-logos flex flex-col items-center" />
-      </Reveal>
 
       {/* <BottomLine /> */}
     </Section>

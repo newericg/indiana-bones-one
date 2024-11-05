@@ -207,24 +207,24 @@ export const collabContent = [
     text: "Let the little explorer inside your dog come to life!",
   },
   {
-    id: "1",
-    title: "Henry Bones Sr.",
-    text: "Hikes for our elder furry babies.",
-  },
-  {
-    id: "2",
+    id: "21",
     title: "Weekeng Dog Walking",
     text: "Busy on weekend? Count on us!",
   },
   {
-    id: "3",
+    id: "2",
     title: "Overnight Boarding/Dog Sitting",
     text: "Don't feel guilty about going on vacation and leaving your pup behind.",
   },
   {
-    id: "4",
+    id: "3",
     title: "Camping Trip",
     text: "Camping Trip Season 2024 is on!",
+  },
+  {
+    id: "4",
+    title: "Search & Rescue",
+    text: "Drone and Night Vision Thermal Binoculars",
   },
 ];
 
@@ -408,6 +408,14 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage1,
   },
+  {
+    id: "10",
+    title: "Night Vision Thermal Binoculars",
+    text: "We’re proud to offer a unique feature that sets us apart from other dog hiking businesses: state-of-the-art thermal binoculars with night vision capabilities.",
+    backgroundUrl: "assets/benefits/galeria5.jpg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage3,
+  },
 ];
 
 export const socials = [
@@ -587,12 +595,12 @@ export const whatWeDoServices = [
     img: indyDog1,
     description: 'Welcome to our dog hiking service! We offer a friendly and exciting dog hiking experience for your furry friends. '
   },
-  // {
-  //   name: 'Senior Dog Hiking',
-  //   link: '/senior-dog-hiking',
-  //   img: indyDog2,
-  //   description: 'This is a gentler version of our regular hikes for senior dogs. Still off-leash, still in the forest, still 1.5 hours but at a slower pace and less steep. '
-  // },
+  {
+    name: 'Drone Services',
+    link: '/drone-services',
+    img: indyDog2,
+    description: "We're proud to offer cutting-edge drone technology to enhance our services and provide an extra layer of safety for our clients."
+  },
   {
     name: 'Weekend Dog Walking',
     link: '/weekend-dog-walking',
@@ -610,6 +618,12 @@ export const whatWeDoServices = [
     link: '/camping-trip',
     img: indyDog5,
     description: 'Embark on an unforgettable adventure with our unique dog camping trip service! Designed exclusively for your furry friends.'
+  },
+  {
+    name: 'Search & Rescue Bundle',
+    link: '/search-and-rescue',
+    img: indyDog2,
+    description: 'This innovative package combines advanced technology to give pet owners and search teams the best tools for finding dogs in various environments and conditions.'
   }
 ]
 

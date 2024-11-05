@@ -23,6 +23,8 @@ import BoardingDogSittingPage from "./pages/BoardingDogSittingPage";
 import CampingTripPage from "./pages/CampingTripPage";
 import CancellationPolicyPage from "./pages/CancellationPolicyPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import DronePage from "./pages/DronePage";
+import SearchAndRescuePage from "./pages/SearchAndRescuePage";
 
 
 
@@ -53,7 +55,10 @@ const App = ({ routes }) => {
           <Route path="/coverage-area-1" element={<WorkInProgressPage/>} />
           <Route path="/vote-on-ideas" element={<VoteOnIdeasPage/>} />
           <Route path="/quick-whip" element={<QuickWhipPage/>} />
+          <Route path="/drone-services" element={<DronePage/>} />
           {/* <Route path="/riley-rips"  element={<EventsPage/>} /> */}
+          <Route path="/search-and-rescue" element={<SearchAndRescuePage/>} />
+
         </Routes>
         <Analytics />
         <SpeedInsights/>
