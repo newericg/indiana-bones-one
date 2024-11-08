@@ -67,7 +67,7 @@ const Hero = () => {
       </div> */}
       <div className="h-screen overflow-hidden">
         <AutoPlaySilentVideo
-          video={heroHalloweenHorizontal}
+          video={heroHorizontal}
           // className="-mt-15 hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
           className="hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>
@@ -76,7 +76,7 @@ const Hero = () => {
          </video> */}
 
         <AutoPlaySilentVideo
-          video={heroHalloweenVertical}
+          video={heroVertical}
           className="sm:hidden h-[90vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>
 

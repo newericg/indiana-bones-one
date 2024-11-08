@@ -11,15 +11,13 @@ import React from "react";
 import GizmoKnowsPage from "./GizmoKnowsPage";
 import { Timeline } from "../components/Timeline";
 
-
 var t = document.createElement("script");
-  t.setAttribute("type", "text/javascript");
-  t.setAttribute("src", "https://cdn.ywxi.net/js/1.js");
-  parent.document.getElementsByTagName("head")[0].appendChild(t);
+t.setAttribute("type", "text/javascript");
+t.setAttribute("src", "https://cdn.ywxi.net/js/1.js");
+parent.document.getElementsByTagName("head")[0].appendChild(t);
 
-  
+
 const HomePage = () => {
-
   return (
     <>
       <Hero />

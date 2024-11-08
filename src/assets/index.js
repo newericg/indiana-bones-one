@@ -146,6 +146,8 @@ import googleReview from './timeline/google-reviews.jpg'
 import halloween2023 from './timeline/halloween-timeline.jpg'
 import indyDiscounted from './timeline/indy-discounted.png'
 
+import newSeal from './new-item.png'
+
 
 
 export {
@@ -161,7 +163,7 @@ export {
   benefitIcon3,
   benefitIcon4,
   brainwave, brainwaveSymbol,
-  brainwaveWhiteSymbol, check,
+  brainwaveWhiteSymbol, check, newSeal,
   check2, chromecast, coins, curve, curve1,
   curve2, disc02, discord, discordBlack, dogHeader, done, facebook, youtube, figma, file02, framer, gradient, grid, hero, heroBackground, homeSmile, indianabones_logo, indianabones_logo2, instagram, lines, loading, loading1, notification1,
   notification2,

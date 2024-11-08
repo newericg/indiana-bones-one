@@ -1,4 +1,4 @@
-import {  check } from "../assets";
+import { check, newSeal } from "../assets";
 import { collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -25,7 +25,15 @@ const Collaboration = () => {
                 <li className="mb-3 py-3" key={item.id}>
                   <div className="flex items-center">
                     <img src={check} width={24} height={24} alt="check" />
-                    <h6 className="body-2 ml-5">{item.title}</h6>
+                    <div className="flex items-center">
+                    <h6 className="body-2 ml-5">
+                      {item.title}{" "}
+                    </h6>
+                      {item.title === "Hotel Services" || item.title === "Search & Rescue"? (
+                        <img className="w-15 h-auto ml-5" src={newSeal} alt="new item seal" />
+                      ) : null}{" "}
+
+                    </div>
                   </div>
                   {item.text && (
                     <p className="body-2 mt-3 text-n-3">{item.text}</p>

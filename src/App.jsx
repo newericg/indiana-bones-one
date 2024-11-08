@@ -27,9 +27,7 @@ import DronePage from "./pages/DronePage";
 import SearchAndRescuePage from "./pages/SearchAndRescuePage";
 
 
-
 const App = ({ routes }) => {
-
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] bg-primary">

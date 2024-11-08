@@ -10,6 +10,10 @@ const CompanyLogos = ({ className }) => {
           <h1 className="tagline mb-6 text-center text-n-1/50 text-xl sm:text-4xl">
             We are accepting new clients! Join Team Indy!
           </h1>
+          <h2 className="text-n-1/50 tagline text-md sm:text-lg text-center px-10">
+            Coverage area: Vancouver, West Van, and North Van.
+          </h2>
+          
           <ul className="flex flex-col sm:flex-row sm:my-5 text-n-1/50 w-full">
             {companyServices.map((item, index) => (
               <li
@@ -28,6 +32,9 @@ const CompanyLogos = ({ className }) => {
               </li>
             ))}
           </ul>
+          <h4 className="text-n-1/50 tagline mt-5 text-xs sm:text-md text-center">
+          Except for Lynn Valley, Canyon Heights, West Bay, Renfrew-Collingwood, Renfrew-Heights, Killarney, Sunset, and Victoria-Fraserview.
+          </h4>
         </div>
       </div>
     </Reveal>

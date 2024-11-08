@@ -207,22 +207,27 @@ export const collabContent = [
     text: "Let the little explorer inside your dog come to life!",
   },
   {
-    id: "21",
+    id: "1",
+    title: "Hotel Services",
+    text: "Contact us today to learn more about how this service can help your furry friend!",
+  },
+  {
+    id: "2",
     title: "Weekeng Dog Walking",
     text: "Busy on weekend? Count on us!",
   },
   {
-    id: "2",
+    id: "3",
     title: "Overnight Boarding/Dog Sitting",
     text: "Don't feel guilty about going on vacation and leaving your pup behind.",
   },
   {
-    id: "3",
+    id: "4",
     title: "Camping Trip",
     text: "Camping Trip Season 2024 is on!",
   },
   {
-    id: "4",
+    id: "5",
     title: "Search & Rescue",
     text: "Drone and Night Vision Thermal Binoculars",
   },
