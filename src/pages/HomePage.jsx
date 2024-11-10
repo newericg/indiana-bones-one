@@ -25,7 +25,7 @@ const HomePage = () => {
       <CompanyLogos className="my-12 sm:mb-20 sm:mt-32 company-logos flex flex-col justify-center items-center background-banner-1" />
       <Benefits />
       <Timeline />
-      <GizmoKnowsPage />
+      {/* <GizmoKnowsPage /> */}
       {/* <Services /> */}
       {/* <Pricing /> */}
       {/* <Roadmap /> */}

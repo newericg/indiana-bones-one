@@ -71,23 +71,23 @@ export const navigation = [
     title: "Rates and Benefits",
     url: "/rates",
   },
+  // {
+  //   id: "2",
+  //   title: "New Pup's Enrollment",
+  //   url: "/newclients",
+  // },
   {
     id: "2",
-    title: "New Pup's Enrollment",
-    url: "/newclients",
-  },
-  {
-    id: "3",
     title: "Vote on Ideas!",
     url: "/vote-on-ideas",
   },
   {
-    id: "4",
+    id: "3",
     title: "Quick Whip | 25% Off Hike",
     url: "/quick-whip",
   },
   {
-    id: "5",
+    id: "4",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,

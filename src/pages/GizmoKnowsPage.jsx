@@ -20,7 +20,7 @@ const GizmoKnowsPage = () => {
         />
       </Reveal>
        
-      <div id="chatling-inline-bot" className="w-full sm:w-4/6 h-auto" style={{height: '700px'}}></div>
+      {/* <div id="chatling-inline-bot" className="w-full sm:w-4/6 h-auto" style={{height: '700px'}}></div> */}
       
         
       
