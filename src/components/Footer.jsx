@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { socials, footerPages } from "../constants";
 import Section from "./Section";
-import { indianabones_logo2 } from "../assets";
+import { indianabones_logo3 } from "../assets";
 import { FaSms } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import {
@@ -21,7 +21,7 @@ const Footer = () => {
           <div>
             <a className="block w-[12rem] xl:mr-8" href="/">
               <img
-                src={indianabones_logo2}
+                src={indianabones_logo3}
                 alt="Indiana Bones Dog Adventures"
               />
             </a>

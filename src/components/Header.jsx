@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { useState } from "react";
-import { indianabones_logo2 } from "../assets";
+import { indianabones_logo3 } from "../assets";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center py-5 px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="/">
-          <img src={indianabones_logo2} width={120} height={40} alt="Indiana Bones Dog Adventures" />
+          <img src={indianabones_logo3} width={120} height={40} alt="Indiana Bones Dog Adventures" />
         </a>
 
         <nav

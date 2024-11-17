@@ -16,8 +16,14 @@ import { Timeline } from "../components/Timeline";
 // t.setAttribute("src", "https://cdn.ywxi.net/js/1.js");
 // parent.document.getElementsByTagName("head")[0].appendChild(t);
 
-
 const HomePage = () => {
+  let bubble = document.querySelector("#chatling-open-chat-icon");
+  let bubbleParent;
+
+  bubble ? (bubbleParent = bubble.parentNode) : null;
+  bubbleParent ? (bubbleParent.style.color = "right: 20px") : null;
+  console.log(bubbleParent);
+  
   return (
     <>
       <Hero />

@@ -3,7 +3,7 @@ import { collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
-import { indianabones_logo2 } from "../assets";
+import { indianabones_logo3 } from "../assets";
 import Reveal from "../libs/Reveal";
 import Heading from "./Heading";
 
@@ -57,7 +57,7 @@ const Collaboration = () => {
                 <div className="w-[16rem] aspect-square m-auto">
                   <div className="flex items-center justify-center w-full h-full rounded-full">
                     <img
-                      src={indianabones_logo2}
+                      src={indianabones_logo3}
                       width={120}
                       height={120}
                       alt="indiana bones logo"

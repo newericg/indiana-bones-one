@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   oldLogo,
   piper,
@@ -14,12 +14,15 @@ import {
   dogRate4,
   dogRate3,
   indyDiscounted,
+  bbb,
+  gra,
 } from "../assets";
-import { indianabones_logo2 } from "../assets";
+import { indianabones_logo3 } from "../assets";
 import { TimelineComponent } from "./design/TimelineComponent";
+import Button from "./Button";
 
 export function Timeline() {
-  const data = [
+  let data = [
     {
       title: "2021",
       content: (
@@ -92,13 +95,15 @@ export function Timeline() {
     },
     {
       title: "150 Dogs",
-      content: <div>
-        <img
-              className="w-40 rounded-lg"
-              src={dogRate4}
-              alt="indiana bones old logo"
-            />
-      </div>,
+      content: (
+        <div>
+          <img
+            className="w-40 rounded-lg"
+            src={dogRate4}
+            alt="indiana bones old logo"
+          />
+        </div>
+      ),
     },
     {
       title: "2023",
@@ -151,7 +156,7 @@ export function Timeline() {
             <h1 className="text-3xl py-4 h1">Google Review 5 star</h1>
             <h1 className="text-xl text-n-4">September</h1>
             <p className=" font-normal mb-8 text-n-4">
-            achieved 5 stars in google reviews
+              achieved 5 stars in google reviews
             </p>
           </div>
 
@@ -168,7 +173,7 @@ export function Timeline() {
           </div>
 
           <div className="text-white my-20">
-          <img
+            <img
               className="w-40 rounded-lg"
               src={halloween2023}
               alt="indiana bones old logo"
@@ -191,7 +196,7 @@ export function Timeline() {
           <div className="text-white my-20">
             <img
               className="w-40 rounded-lg"
-              src={indianabones_logo2}
+              src={indianabones_logo3}
               alt="indiana bones old logo"
             />
             <h1 className="text-4xl py-4 h1">Indy 2.0</h1>
@@ -204,7 +209,7 @@ export function Timeline() {
           </div>
 
           <div className="text-white my-20">
-          <img
+            <img
               className="w-40 rounded-lg"
               src={indyDiscounted}
               alt="indiana bones old logo"
@@ -232,13 +237,15 @@ export function Timeline() {
     },
     {
       title: "300 Dogs",
-      content: <div>
-        <img
-              className="w-40 rounded-lg"
-              src={dogRate3}
-              alt="indiana bones old logo"
-            />
-      </div>,
+      content: (
+        <div>
+          <img
+            className="w-40 rounded-lg"
+            src={dogRate3}
+            alt="indiana bones old logo"
+          />
+        </div>
+      ),
     },
     {
       title: "2024",
@@ -309,13 +316,43 @@ export function Timeline() {
             <h1 className="text-xl text-n-4">October</h1>
             <p className=" font-normal mb-8 text-n-4"></p>
           </div>
+
+          <div className="text-white my-20">
+            <img src={bbb} className="w-32 rounded-lg" alt="trademark symbol" />
+            <h1 className="text-4xl py-4 h1">
+              Indiana Bones earn the Best Business Bureau seal
+            </h1>
+            <h1 className="text-xl text-n-4">November</h1>
+            <p className=" font-normal mb-8 text-n-4"></p>
+          </div>
+
+          <div className="text-white my-20">
+            <img src={gra} className="w-32 rounded-lg" alt="trademark symbol" />
+            <h1 className="text-4xl py-4 h1">
+              Indiana Bones wins the Global recognition Awards™
+            </h1>
+            <h1 className="text-xl text-n-4">November</h1>
+            <p className=" font-normal mb-8 text-n-4"></p>
+          </div>
         </div>
       ),
     },
   ];
+
+  const [lessData, setLessData] = useState(data.slice(0, -4));
+
   return (
     <div className="w-full">
-      <TimelineComponent data={data} />
+      <TimelineComponent data={lessData} />
+      <div className="flex justify-center mb-32">
+        {lessData.length === 3 ? (
+          <Button onClick={() => setLessData(data)}>Show More</Button>
+        ) : (
+          <Button onClick={() => setLessData(data.slice(0, -4))}>
+            Show Less
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

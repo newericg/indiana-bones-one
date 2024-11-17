@@ -86,6 +86,7 @@ import youtube from "./socials/youtube.svg"
 import dogHeader from './hero/dog-header.png';
 import indianabones_logo from './indianabones_logo.png';
 import indianabones_logo2 from './indianabones_logo2.png';
+import indianabones_logo3 from './logo-svg.svg';
 
 import dogHiking from './dog-hiking.png';
 import banner2 from './new-pictures/banner2.jpg'
@@ -147,12 +148,14 @@ import halloween2023 from './timeline/halloween-timeline.jpg'
 import indyDiscounted from './timeline/indy-discounted.png'
 
 import newSeal from './new-item.png'
+import bbb from './timeline/bbb.png'
+import gra from './timeline/GRA.png'
 
 
 
 export {
   heroHorizontal, heroVertical, heroHalloweenHorizontal, heroHalloweenVertical,
-  background, benefitCard1,
+  background, benefitCard1, indianabones_logo3, bbb, gra,
   benefitCard2,
   benefitCard3,
   benefitCard4,
