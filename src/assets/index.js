@@ -92,6 +92,7 @@ import dogHiking from './dog-hiking.png';
 import banner2 from './new-pictures/banner2.jpg'
 import banner3 from './new-pictures/banner3.jpg'
 import banner4 from './new-pictures/banner4.jpg'
+import banner5 from './banners/banner5.jpg'
 
 import dogRate1 from './rates/galeria3.jpg';
 import dogRate2 from './rates/galeria4.jpg';
@@ -151,9 +152,19 @@ import newSeal from './new-item.png'
 import bbb from './timeline/bbb.png'
 import gra from './timeline/GRA.png'
 
+import sam from './indy-team/sam-pic.png'
+import sam2 from './indy-team/sam-pic2.png'
+import vision from './about-pics/vision-pic.png'
+import mission from './about-pics/mission-pic.png'
+import safety from './about-pics/safety-pic.png'
+import sustain from './about-pics/sustain-pic.png'
+import social from './about-pics/social-pic.png'
+import adventure from './about-pics/adventure-pic.png'
+
 
 
 export {
+  sam, sam2, vision, mission, safety, sustain, social, adventure,
   heroHorizontal, heroVertical, heroHalloweenHorizontal, heroHalloweenVertical,
   background, benefitCard1, indianabones_logo3, bbb, gra,
   benefitCard2,
@@ -185,7 +196,7 @@ export {
   event1, event2, event3, halloween1, crusAid,
   dogHikingPageImg, dogHikingPageImg2, dogHikingPageImg3, dogHikingPageImg4, dogHikingPageImg5, dogHikingPageImg6, dogHikingPageImg7,
   dogHikingPageImgHead,
-  banner2, banner3, banner4,
+  banner2, banner3, banner4, banner5,
   oldLogo, piper, wes, lwEmployer, bestVancouver, rileyEvent, petPalooza, crusAidevent, trademark, googleReview, halloween2023, indyDiscounted
 
 };

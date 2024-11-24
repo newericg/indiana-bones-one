@@ -71,23 +71,23 @@ export const navigation = [
     title: "Rates and Benefits",
     url: "/rates",
   },
-  // {
-  //   id: "2",
-  //   title: "New Pup's Enrollment",
-  //   url: "/newclients",
-  // },
   {
     id: "2",
+    title: "Membership",
+    url: "/membership-benefits",
+  },
+  {
+    id: "3",
     title: "Vote on Ideas!",
     url: "/vote-on-ideas",
   },
   {
-    id: "3",
+    id: "4",
     title: "Quick Whip | 25% Off Hike",
     url: "/quick-whip",
   },
   {
-    id: "4",
+    id: "5",
     title: "New client",
     url: "/newclients",
     onlyMobile: true,
@@ -100,9 +100,7 @@ export const navigation = [
   // },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
 
 export const companyServices = [
   {
@@ -121,15 +119,6 @@ export const companyServices = [
     text: "Dog Sittings",
     number: 134
   },
-  // {
-  //   text: "Camping Trip"
-  // },
-  // {
-  //   text: "Overnight Boarding"
-  // },
-  // {
-  //   text: "Dog Siting"
-  // },
 ];
 
 export const brainwaveServices = [
@@ -424,30 +413,12 @@ export const benefits = [
 ];
 
 export const socials = [
-  // {
-  //   id: "0",
-  //   title: "Discord",
-  //   iconUrl: discordBlack,
-  //   url: "#",
-  // },
-  // {
-  //   id: "1",
-  //   title: "Twitter",
-  //   iconUrl: twitter,
-  //   url: "#",
-  // },
   {
     id: "0",
     title: "Instagram",
     iconUrl: instagram,
     url: "https://www.instagram.com/indiana.bones.vancouver/",
   },
-  // {
-  //   id: "3",
-  //   title: "Telegram",
-  //   iconUrl: telegram,
-  //   url: "#",
-  // },
   {
     id: "1",
     title: "Facebook",
@@ -642,10 +613,10 @@ export const footerPages = [
     page: 'FAQ',
     link: '/faq'
   },
-  {
-    page: 'Contact us',
-    link: '/contact'
-  },
+  // {
+  //   page: 'Contact us',
+  //   link: '/contact'
+  // },
   // {
   //   page: 'Safety Policy',
   //   link: '/safetypolicy'
@@ -1086,4 +1057,55 @@ export const events = [
     title: 'Riley Rips',
     tag: 'Event'
   }
+]
+
+export const membershipBenefits = [
+  {
+    item: 'Guaranteed fixed spot',
+    info: 'your pup will never miss a hike.'
+  },
+  {
+    item: 'Real-time ETA',
+    info: "you'll receive real-time updates on the estimated arrival time for your dog's hike, providing peace of mind and convenience."
+  },
+  {
+    item: 'Exclusive App',
+    info: "your booking management has become much easier and more convenient."
+  },
+  {
+    item: 'Plan Freeze',
+    info: "you can freeze your membership plan temporarily, allowing flexibility to accommodate any changes in your schedule or your dog's needs."
+  },
+  {
+    item: 'Holidays Included',
+    info: "the membership includes dog hikes on all holidays except Christmas and New Year's Day. Those days will be refunded."
+  },
+  {
+    item: '10% Discount on Boarding and Dog-sitting',
+    info: "members receive a discount on boarding and dog-sitting services, making it more affordable to ensure your dog is well cared for when you're away."
+  },
+  {
+    item: '15% Discount on Camping Trips',
+    info: "Big discounts!"
+  },
+  {
+    item: 'Boarding and Dog-sitting Add-ons',
+    info: "the membership also provides access to additional services such as the 'Temple of Groom,' which includes a visit to the groomer, and the 'Temple of Zoom', offering a discount on the dog hike."
+  },
+  {
+    item: "Access to Current and Future Partners' Benefits",
+    info: "members gain access to exclusive benefits and offers from current and future partner businesses, enhancing the overall value of their membership. Tractive is our first partner and it offering a 50% discount on their GPS trackers for us!"
+  },
+  {
+    item: "Short Round's Referrals",
+    info: "members can earn a 15% discount on their purchase by referring others to join the membership, subject to the referral policy."
+  },
+  {
+    item: 'Fidelity Program',
+    info: "a loyalty program is in development, with the release date to be announced, offering additional rewards and perks for long-term members."
+  },
+  {
+    item: 'Quick Whip',
+    info: "the opportunity to book the next day's remaining hikes with a 25% discount. Sunday to Thursday from 4:00 p.m. to 4:30."
+  },
 ]

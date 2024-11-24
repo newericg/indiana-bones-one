@@ -25,6 +25,8 @@ import CancellationPolicyPage from "./pages/CancellationPolicyPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import DronePage from "./pages/DronePage";
 import SearchAndRescuePage from "./pages/SearchAndRescuePage";
+import MembershipPage from "./pages/MembershipPage";
+import AboutUsPage from "./pages/AboutUsPage";
 
 
 const App = ({ routes }) => {
@@ -38,7 +40,7 @@ const App = ({ routes }) => {
           <Route path="/newclients" element={<NewClientsPage />} />
           <Route path="/rates" element={<RatesPage/>} />
           <Route path="/gizmoknows" element={<GizmoKnowsPage/>} />
-          <Route path="/about" element={<WorkInProgressPage/>} />
+          <Route path="/about" element={<AboutUsPage/>} />
           <Route path="/dog-hiking-vancouver" element={<DogHikingPage/>} />
           <Route path="/weekend-dog-walking" element={<WeekendDogWalkingPage/>} />
           <Route path="/senior-dog-hiking" element={<WorkInProgressPage/>} />
@@ -56,6 +58,7 @@ const App = ({ routes }) => {
           <Route path="/drone-services" element={<DronePage/>} />
           {/* <Route path="/riley-rips"  element={<EventsPage/>} /> */}
           <Route path="/search-and-rescue" element={<SearchAndRescuePage/>} />
+          <Route path="/membership-benefits" element={<MembershipPage/>} />
 
         </Routes>
         <Analytics />
