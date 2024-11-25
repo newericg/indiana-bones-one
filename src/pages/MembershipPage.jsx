@@ -59,8 +59,8 @@ const MembershipPage = () => {
                 care, and attention, while also offering cost-saving
                 opportunities and additional perks for members.
               </p>
-              <Button white className="my-10 text-center border-white" href="https://indianabonesdogadventures.simplybook.me/v2/#membership" target="_blank">Choose Plan!</Button>
             </div>
+              <Button white className="my-10 text-center border-white mx-auto" href="https://indianabonesdogadventures.simplybook.me/v2/#membership" target="_blank">Choose Plan!</Button>
           </div>
         </main>
       </Reveal>

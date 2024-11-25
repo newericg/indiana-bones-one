@@ -375,7 +375,7 @@ export const benefits = [
     text: "You can suggest improvements or vote on ideas already proposed by other clients. Your feedback helps shape our transformation!",
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
   {
     id: "7",
@@ -401,6 +401,7 @@ export const benefits = [
     backgroundUrl: "assets/benefits/galeria4.jpg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage1,
+    light: true
   },
   {
     id: "10",
