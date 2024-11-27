@@ -229,7 +229,7 @@ export function Timeline() {
             <h1 className="text-4xl py-4 h1">From the Ashes</h1>
             <h1 className="text-xl text-n-4">March</h1>
             <p className=" font-normal mb-8 text-n-4">
-              Indiana Bones increases its revenue in 115% and margin fo 20%.
+              Indiana Bones increases its revenue in 115% and margin of 20%.
             </p>
           </div>
         </div>
