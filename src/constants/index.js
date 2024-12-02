@@ -875,7 +875,7 @@ export const cancellationPolicyMembership = [
       },
       {
         title:'Membership Payment Schedule',
-        info: 'Every 4 weeks (28 days), with 3 installments per membership period',
+        info: 'installments, paid every 4 weeks (28 days)',
       },
 
     ]
@@ -884,13 +884,13 @@ export const cancellationPolicyMembership = [
     type: 'Payment',
     itens: [
       {
-        info: 'Membership clients commit to 3 months, with automatic renewal unless cancelled.',
+        info: 'Memberships auto-renew unless cancelled in writing.',
       },
       {
-        info: 'Every 4 weeks (28 days), with 3 installments per membership period',
+        info: 'Payments are due every 4 weeks from the registration date.',
       },
       {
-        info: 'Membership rates may change annually with advanced notice.',
+        info: 'Membership rates may change annually with advance notice.',
       },
       {
         info: 'The membership period begins on the Saturday before the first hike.',
@@ -902,13 +902,10 @@ export const cancellationPolicyMembership = [
     type: 'Discontinuation of the Service',
     itens: [
       {
-        info: 'Agreements are automatically renewed unless written notice is provided.',
+        info: 'Early termination incurs a cancellation fee based on the remaining membership duration:  75% of remaining installments within the first month; 50% within the second month; 25% within the third month.',
       },
       {
-        info: 'Early termination incurs a 25% fee on remaining unpaid installments.',
-      },
-      {
-        info: 'Paid installments are non-refundable, except for illness or injury with a veterinarian’s note',
+        info: "Paid installments are non-refundable except in cases of documented illness (physician's note required).",
       },
     ]
   },
@@ -916,22 +913,22 @@ export const cancellationPolicyMembership = [
     type: 'Cancellations and Time Away',
     itens: [
       {
-        info: 'Hikes may be cancelled or rescheduled by Indiana Bones due to safety or staff capacity issues, with full refunds provided.',
+        info: 'Indiana Bones may cancel hikes due to safety or staffing issues; full refunds will be provided.',
       },
       {
         info: 'Severe weather cancellations offer alternative options.',
       },
       {
-        info: 'Clients can reschedule with 48-hour notice; otherwise, a 100% charge applies.',
+        info: "Members can reschedule hikes with 48 hours' notice. Failure to do so results in a 100% charge.",
       },
       {
-        info: 'Monthly rescheduling limits based on membership level:',
+        info: 'Reschedule allowances:',
         info2: [
-          '1-2 hikes/week: 1 reschedule/month', '3-5 hikes/week: 2 reschedules/month'
+          'Members receive 3 "reschedule points" per membership period.', 'Each reschedule uses one point.', 'After points are used, a 100% charge applies.', "Illness (physician's note required) does not use points.", "Attention: a hike can’t be rescheduled to a day of the recurring hike."
         ]
       },
       {
-        info: 'Cancelled hikes cannot be carried over but can be replaced with coupons valid within the 3 months.',
+        info: 'Cancelled hikes cannot be carried over but can be replaced with coupons valid for 3 months.',
       },
       {
         info: 'For inquiries, contact logistics@indianabones.ca.',
@@ -942,13 +939,13 @@ export const cancellationPolicyMembership = [
     type: 'Time Away',
     itens: [
       {
-        info: 'Clients may suspend membership for up to 3 weeks per year with adjusted payments.',
+        info: 'Members may suspend their membership for up to 3 weeks per year with adjusted payments. This allowance resets annually on January 1st.',
       },
       {
         info: 'Additional time off incurs a 50% fee per missed hike to maintain the reserved spot.',
       },
       {
-        info: 'Cancelling membership requires a 6-month wait before rejoining.',
+        info: 'Cancelling membership means losing the reserved spot and requiring a 3-month waiting period before rejoining.  A $50 fee allows for rejoining earlier.',
       },
     ]
   },
@@ -960,10 +957,10 @@ export const cancellationPolicyNonMembers = [
     type: 'Payment',
     itens: [
       {
-        info: 'Bookings must be made online with full payment at the time of booking.',
+        info: 'Full payment is required at the time of online booking',
       },
       {
-        info: 'Appointments can be scheduled up to two months in advance.',
+        info: 'Appointments can be scheduled up to one month in advance.',
       },
 
     ]
@@ -972,7 +969,7 @@ export const cancellationPolicyNonMembers = [
     type: 'Discontinuation',
     itens: [
       {
-        info: 'Clients discontinuing the service receive a 75% refund for the remaining hikes.',
+        info: "Clients receive a 50% refund for remaining hikes if cancelled with 48 hours' notice.",
       },
     ]
   },
@@ -980,27 +977,195 @@ export const cancellationPolicyNonMembers = [
     type: 'Cancellation',
     itens: [
       {
-        info: 'Indiana Bones may cancel hikes for safety or staff reasons, with full refunds provided.',
+        info: 'Indiana Bones may cancel hikes due to safety or staff reasons; full refunds will be provided.',
       },
       {
         info: 'Severe weather cancellations offer alternative options.',
       },
       {
-        info: 'Clients must provide 48-hour notice to reschedule; otherwise, a 100% charge applies.',
+        info: 'Clients must provide 48-hour notice to reschedule; otherwise, the booking is non-refundable',
       },
       {
-        info: 'One hike per month can be rescheduled; further cancellations are non-refundable unless for illness or injury with a veterinarian’s note.',
+        info: "One reschedule is permitted per month.  Further cancellations are non-refundable except for illness or injury (veterinarian's note required).",
       },
       {
         info: 'No-shows are non-refundable.',
+      }
+    
+    ]
+  },
+]
+
+export const cancellationPolicyBoardingSitting = [
+  {
+    type: 'Payment',
+    itens: [
+      {
+        info: 'Full payment is required at the time of booking. A non-refundable 25% deposit is required to secure the booking',
+      },
+      {
+        info: 'Any changes made less than 7 days prior to the start of service will be subject to a 50% cancellation fee (based on the total cost of the booking).',
+      },
+
+    ]
+  },
+  {
+    type: 'Cancellation',
+    itens: [
+      {
+        title: 'Indiana Bones Cancellation',
+        info: 'If Indiana Bones cancels a boarding or sitting reservation due to unforeseen circumstances (e.g., staff illness, facility issues), clients will receive a full refund.'
+      },
+      {
+        title: 'Client Cancellation',
+        info: 'Cancellations made more than 7 days before the start of service will receive a full refund, less the non-refundable deposit.  Cancellations made within 7 days of the start of service are subject to a 50% cancellation fee. Cancellations made on the day of service are non-refundable.  In the case of documented emergency (police report, hospital documentation, etc.), a case-by-case review will be conducted.'
+      },
+      {
+        title: 'Early Pick-up: ',
+        info: 'Should a client need to pick up their dog earlier than scheduled, they will be charged for the full duration of the originally booked service.  Exceptions may be considered on a case-by-case basis for emergencies (with proper documentation).'
+      },
+    ]
+  },
+]
+
+export const cancellationGeneralInformation = [
+  {
+    type: 'Severe Weather',
+    itens: [
+      {
+        info: 'In the event of severe weather conditions that impact safety, Indiana Bones may need to adjust or cancel services. Clients will be notified as soon as possible.  Refunds or rescheduling will be offered based on the specific circumstances.',
+      },
+    ]
+  },
+  {
+    type: 'Communication',
+    itens: [
+      {
+        info: 'We will communicate cancellations or changes to bookings promptly.'
       },
       {
         info: 'For inquiries, contact logistics@indianabones.ca.',
       },
-      
     ]
   },
 ]
+
+export const cancellationStaffOnly = [
+  {
+    mainTitle: 'Context of the Organization',
+    itens: [
+      {
+        title: 'Scope of the QMS',
+        text: "This QMS applies to all aspects of Indiana Bones Dog Adventures' operations, including membership services, sporadic bookings, and dog boarding/sitting services"
+      },
+      {
+        title: 'Interested Parties',
+        text: 'Clients, staff, regulatory bodies (e.g., animal welfare agencies, local authorities'
+      },
+    ],
+  },
+  {
+    mainTitle: 'Leadership',
+    itens: [
+      {
+        title: 'Quality Policy',
+        text: 'Indiana Bones Dog Adventures is committed to providing high-quality dog-related services that consistently exceed customer expectations and comply with all relevant regulations and legal requirements regarding animal welfare and safety.'
+      },
+      {
+        title: 'Roles and Responsibilities',
+        text: 'Clearly defined roles and responsibilities ensure compliance with this QMS and the prompt resolution of any issues.  (See attached organizational chart for details).'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Planning',
+    itens: [
+      {
+        title: 'Quality Objectives',
+        text: '',
+        itens: ['Maintain high customer satisfaction scores (target: 95% satisfaction rating).', 'Ensure the safety and well-being of all dogs under our care.', 'Minimize cancellation-related disruptions to services.']
+      },
+      {
+        title: 'Risk Management',
+        text: 'Regularly assess and mitigate risks related to service delivery, cancellations, and potential animal welfare concerns.  (See attached risk assessment matrix).'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Support',
+    itens: [
+      {
+        title: 'Resources',
+        text: 'Maintain adequate staffing, equipment, and facilities to meet operational commitments.'
+      },
+      {
+        title: 'Competence and Training',
+        text: 'Provide ongoing training for staff on animal handling, customer service, and QMS procedures.  (See training records).'
+      },
+      {
+        title: 'Communication',
+        text: 'Establish clear and efficient internal and external communication channels.'
+      }
+    ]
+  },
+  {
+    mainTitle: 'Operation',
+    itens: [
+      {
+        title: 'Operational Planning and Control',
+        text: 'Maintain detailed operational procedures for all services.'
+      },
+      {
+        title: 'Customer Communication',
+        text: 'Provide prompt, accurate, and courteous communication to clients regarding any changes or cancellations.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Performance Evaluation',
+    itens: [
+      {
+        title: 'Monitoring and Measurement',
+        text: 'Regularly monitor key performance indicators (KPIs), including customer satisfaction, staff performance, and incident rates.'
+      },
+      {
+        title: 'Internal Audits',
+        text: 'Conduct regular internal audits to ensure compliance with the QMS.  (See audit schedule).'
+      },
+      {
+        title: 'Management Review',
+        text: "Conduct annual management reviews of the QMS's effectiveness and relevance."
+      },
+    ]
+  },
+  {
+    mainTitle: 'Improvement',
+    itens: [
+      {
+        title: 'Nonconformity and Corrective Action',
+        text: 'Establish a system for promptly identifying, investigating, and addressing any nonconformities. (See corrective action procedure).'
+      },
+      {
+        title: 'Continual Improvement',
+        text: 'Regularly review and improve the QMS to enhance service quality and efficiency.'
+      },
+    ]
+  },
+  {
+    mainTitle: 'Records',
+    itens: [
+      {
+        title: 'Documented Information',
+        text: 'Maintain accurate records of all relevant information, including cancellations, rescheduling requests, client communications, training records, and audit results.'
+      },
+      {
+        title: 'Review Frequency',
+        text: 'All documented information should be regularly reviewed and updated'
+      },
+    ]
+  }
+]
+
 
 export const privacyPolicy = [
   {
