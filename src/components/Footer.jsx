@@ -60,14 +60,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className=" lg:block text-center text-sm">
+        <p className=" lg:block text-center text-xs">
           Trademark Disclaimer: Indiana Bones Dog Adventures is an independent
           dog hiking service. Our company name is a playful pun and is not
           affiliated with, endorsed by, or connected to Lucasfilm Ltd. LLC, the
           owners of the Indiana Jones trademark. We provide distinct services
           unrelated to the Indiana Jones entertainment franchise.
         </p>
-        <p className=" lg:block text-center text-sm">
+        <p className=" lg:block text-center text-xs">
           Indiana Bones Dog Adventures Corp. © 2021. All rights reserved.
         </p>
 
