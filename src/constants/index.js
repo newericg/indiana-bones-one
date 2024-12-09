@@ -55,7 +55,9 @@ import {
   event2,
   event3,
   halloween1,
-  crusAid
+  crusAid,
+  dogs1,
+  dogs2
 
 } from "../../src/assets";
 
@@ -218,7 +220,7 @@ export const collabContent = [
   {
     id: "5",
     title: "Search & Rescue",
-    text: "Drone and Night Vision Thermal Binoculars",
+    text: "Drone and Night Vision/Thermal Binoculars",
   },
 ];
 
@@ -405,7 +407,7 @@ export const benefits = [
   },
   {
     id: "10",
-    title: "Night Vision Thermal Binoculars",
+    title: "Night Vision/Thermal Binoculars",
     text: "We’re proud to offer a unique feature that sets us apart from other dog hiking businesses: state-of-the-art thermal binoculars with night vision capabilities.",
     backgroundUrl: "assets/benefits/galeria5.jpg",
     iconUrl: benefitIcon2,
@@ -575,7 +577,7 @@ export const whatWeDoServices = [
   {
     name: 'Drone Services',
     link: '/drone-services',
-    img: indyDog2,
+    img: dogs1,
     description: "We're proud to offer cutting-edge drone technology to enhance our services and provide an extra layer of safety for our clients."
   },
   {
@@ -599,7 +601,7 @@ export const whatWeDoServices = [
   {
     name: 'Search & Rescue Bundle',
     link: '/search-and-rescue',
-    img: indyDog2,
+    img: dogs2,
     description: 'This innovative package combines advanced technology to give pet owners and search teams the best tools for finding dogs in various environments and conditions.'
   }
 ]
@@ -943,9 +945,6 @@ export const cancellationPolicyMembership = [
       },
       {
         info: 'Additional time off incurs a 50% fee per missed hike to maintain the reserved spot.',
-      },
-      {
-        info: 'Cancelling membership means losing the reserved spot and requiring a 3-month waiting period before rejoining.  A $50 fee allows for rejoining earlier.',
       },
     ]
   },

@@ -26,7 +26,7 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div className="flex flex-col gap-3 mt-5 mb-20 sm:m-0">
+          <div className="flex flex-col gap-3 mt-5 mb-20 sm:m-0 text-base">
             {footerPages.map((pages) => (
               <a
                 href={pages.link}
@@ -49,7 +49,7 @@ const Footer = () => {
               </MenuItem>
             </Menu>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 text-base">
             <div className="flex">
               <MdOutlineAlternateEmail size={20} title="email icon" />
               <p className="ml-5"> logistics@indianabones.ca</p>
@@ -60,14 +60,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className=" lg:block text-center">
+        <p className=" lg:block text-center text-sm">
           Trademark Disclaimer: Indiana Bones Dog Adventures is an independent
           dog hiking service. Our company name is a playful pun and is not
           affiliated with, endorsed by, or connected to Lucasfilm Ltd. LLC, the
           owners of the Indiana Jones trademark. We provide distinct services
           unrelated to the Indiana Jones entertainment franchise.
         </p>
-        <p className=" lg:block text-center">
+        <p className=" lg:block text-center text-sm">
           Indiana Bones Dog Adventures Corp. © 2021. All rights reserved.
         </p>
 

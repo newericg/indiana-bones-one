@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { curve, dogHeader, heroHalloweenHorizontal, heroHalloweenVertical } from "../assets";
+import { curve, dogHeader, heroChristmasHorizontal, heroHalloweenHorizontal, heroHalloweenVertical } from "../assets";
 import Button from "./Button";
 // import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
@@ -67,7 +67,7 @@ const Hero = () => {
       </div> */}
       <div className="h-screen overflow-hidden">
         <AutoPlaySilentVideo
-          video={heroHorizontal}
+          video={heroChristmasHorizontal}
           // className="-mt-15 hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
           className="hidden sm:block h-[95vh] w-screen m-0 p-0 object-cover"
         ></AutoPlaySilentVideo>

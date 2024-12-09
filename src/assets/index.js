@@ -134,6 +134,7 @@ import heroVertical from './videos/hero-oficial-vertical-muted.mp4'
 import heroHorizontal from './videos/hero-oficial-horizontal-muted.mp4'
 import heroHalloweenVertical from './videos/hero-halloween-vertical.mp4'
 import heroHalloweenHorizontal from './videos/hero-halloween-horizontal.mp4'
+import heroChristmasHorizontal from './videos/christmas-horizontal.mov'
 
 import oldLogo from './timeline/old-logo.jpg'
 import piper from './timeline/piper.jpg'
@@ -161,12 +162,15 @@ import sustain from './about-pics/sustain-pic.png'
 import social from './about-pics/social-pic.png'
 import adventure from './about-pics/adventure-pic.png'
 
+import dogs1 from './dog-pictures/dogs1.jpg'
+import dogs2 from './dog-pictures/dogs2.jpg'
+
 
 
 export {
   sam, sam2, vision, mission, safety, sustain, social, adventure,
-  heroHorizontal, heroVertical, heroHalloweenHorizontal, heroHalloweenVertical,
-  background, benefitCard1, indianabones_logo3, bbb, gra,
+  heroHorizontal, heroVertical, heroHalloweenHorizontal, heroHalloweenVertical, heroChristmasHorizontal,
+  background, benefitCard1, indianabones_logo3, bbb, gra, dogs1, dogs2,
   benefitCard2,
   benefitCard3,
   benefitCard4,

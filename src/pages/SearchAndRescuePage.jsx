@@ -13,7 +13,7 @@ let content = [
   },
   {
     title: 'High-Tech Drone',
-    text: "Equipped with a high-resolution camera for aerial searches Covers large areas quickly and efficiently Can access hard-to-reach locations Thermal Night Vision Binoculars: Detects heat signatures of animals, even in complete darkness Allows for precise location of dogs in low-light conditions or dense vegetation Weather-resistant and durable for outdoor use",
+    text: "Equipped with a high-resolution camera for aerial searches Covers large areas quickly and efficiently Can access hard-to-reach locations Thermal Night/Vision Binoculars: Detects heat signatures of animals, even in complete darkness Allows for precise location of dogs in low-light conditions or dense vegetation Weather-resistant and durable for outdoor use",
     img: indyDog3,
   },
   {
