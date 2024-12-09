@@ -746,9 +746,27 @@ export const safetyMeasures = [
   {
     title: 'GPS Trackers',
     policy: "Used in the forest to monitor dogs' locations.",
-    records: ' GPS tracking logs.',
+    records: 'GPS tracking logs.',
     reviewFrequency: 'Annually.'
   },
+  {
+    title: 'Drone',
+    policy: "Equipped with a camera for aerial surveillance of dogs during walks, aiding in locating lost dogs or monitoring group activities.",
+    records: 'Flight logs, maintenance records, and footage archives.',
+    reviewFrequency: 'Quarterly.'
+  },
+  {
+    title: 'Thermal Vision',
+    policy: "Used for nighttime or low-visibility searches to locate dogs in emergency situations.",
+    records: 'Usage logs, calibration records, and thermal image archives.',
+    reviewFrequency: 'Semi-annually.'
+  },
+  // {
+  //   title: 'Walkie Talkies',
+  //   policy: "Used for nighttime or low-visibility searches to locate dogs in emergency situations.",
+  //   records: 'Usage logs, calibration records, and thermal image archives.',
+  //   reviewFrequency: 'Semi-annually.'
+  // },
   
 ]
 
